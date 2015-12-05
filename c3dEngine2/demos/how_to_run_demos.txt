@@ -13,7 +13,6 @@ iOS:
 3, run.
 note:
 1, currently not support iphone6 simulator, you can only run demos in iphone5 simulator. 
-2, some demos may do not have iOS version.
 
 ----------------------------------------------------
 
