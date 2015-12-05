@@ -34,6 +34,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_superSingleCell", "..\.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "singleCellGame", "singleCellGame", "{C6939685-3CD4-44CE-9D17-7EEDF7A4194C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_importMyOwnFormat-static", "..\..\app_importMyOwnFormat-static\proj.win32\app_importMyOwnFormat-static.vcxproj", "{19054593-370F-2726-302C-17D2DDD43FFC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_importMyOwnFormat_caomei", "..\..\app_importMyOwnFormat_caomei\proj.win32\app_importMyOwnFormat_caomei.vcxproj", "{A37A492F-A118-A4D1-835B-6D7C7E06490C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -68,6 +72,14 @@ Global
 		{FA5916B1-C481-3C80-69EF-227BC0CD4368}.Debug|Win32.Build.0 = Debug|Win32
 		{FA5916B1-C481-3C80-69EF-227BC0CD4368}.Release|Win32.ActiveCfg = Release|Win32
 		{FA5916B1-C481-3C80-69EF-227BC0CD4368}.Release|Win32.Build.0 = Release|Win32
+		{19054593-370F-2726-302C-17D2DDD43FFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19054593-370F-2726-302C-17D2DDD43FFC}.Debug|Win32.Build.0 = Debug|Win32
+		{19054593-370F-2726-302C-17D2DDD43FFC}.Release|Win32.ActiveCfg = Release|Win32
+		{19054593-370F-2726-302C-17D2DDD43FFC}.Release|Win32.Build.0 = Release|Win32
+		{A37A492F-A118-A4D1-835B-6D7C7E06490C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A37A492F-A118-A4D1-835B-6D7C7E06490C}.Debug|Win32.Build.0 = Debug|Win32
+		{A37A492F-A118-A4D1-835B-6D7C7E06490C}.Release|Win32.ActiveCfg = Release|Win32
+		{A37A492F-A118-A4D1-835B-6D7C7E06490C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +90,8 @@ Global
 		{3D5094B9-B3C5-B5C2-7F17-E39D99D67636} = {F83724CF-8D28-4FF8-A711-9D57C7B8655C}
 		{9E59765B-2FEF-F64F-5DAC-8C9C665A6521} = {F83724CF-8D28-4FF8-A711-9D57C7B8655C}
 		{1CB50177-368E-9E32-4A70-88214DE8BA46} = {F83724CF-8D28-4FF8-A711-9D57C7B8655C}
+		{19054593-370F-2726-302C-17D2DDD43FFC} = {F83724CF-8D28-4FF8-A711-9D57C7B8655C}
+		{A37A492F-A118-A4D1-835B-6D7C7E06490C} = {F83724CF-8D28-4FF8-A711-9D57C7B8655C}
 		{FA5916B1-C481-3C80-69EF-227BC0CD4368} = {C6939685-3CD4-44CE-9D17-7EEDF7A4194C}
 	EndGlobalSection
 EndGlobal

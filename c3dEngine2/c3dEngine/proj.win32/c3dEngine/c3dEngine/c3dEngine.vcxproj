@@ -228,14 +228,10 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\c3dEngine\platform\win32\libraries\*.*" "$(Ou
   
 if not exist "$(OutDir)" mkdir "$(OutDir)"
 xcopy /Y /Q "$(ProjectDir)..\..\..\thirdPart\bullet\bullet-2.82-r2704\lib_win32\debug\*.*" "$(OutDir)"
-  
-if not exist "$(OutDir)" mkdir "$(OutDir)"
-xcopy /Y /Q "$(ProjectDir)..\..\..\thirdPart\FBX\FBX_win32\FbxSdk\2015.1\lib\vs2010\x86\debug\*.*" "$(OutDir)"
-
-</Command>
+ </Command>
     </PreLinkEvent>
     <Lib>
-      <AdditionalDependencies>BulletCollision_vs2010_debug.lib;BulletDynamics_vs2010_debug.lib;LinearMath_vs2010_debug.lib;libfbxsdk-mt.lib;wininet.lib;opengl32.lib;glu32.lib;glew32.lib;odbc32.lib;odbccp32.lib;openal32.lib;alut.lib;libzlib.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>BulletCollision_vs2010_debug.lib;BulletDynamics_vs2010_debug.lib;LinearMath_vs2010_debug.lib;wininet.lib;opengl32.lib;glu32.lib;glew32.lib;odbc32.lib;odbccp32.lib;openal32.lib;alut.lib;libzlib.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <Lib>
       <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\c3dEngine\platform\win32\libraries;$(ProjectDir)..\..\..\thirdPart\bullet\bullet-2.82-r2704\lib_win32\debug;$(ProjectDir)..\..\..\thirdPart\FBX\FBX_win32\FbxSdk\2015.1\lib\vs2010\x86\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
