@@ -27,7 +27,7 @@ i will update code to http://git.oschina.net/wantnon2/c3dEngine2.git and https:/
   
 blog: http://user.qzone.qq.com/350479720/blog/1393165837  
   
-qq group: 338565878  
+qq group: 519196868  
   
 screenshot:  
 draw a simple box  
@@ -40,8 +40,6 @@ quadtree LOD terrain
 ![screenshot](https://raw.githubusercontent.com/wantnon2/c3dEngine2/master/screenshot/screenshot3.png)  
 bullet integration  
 ![screenshot](https://raw.githubusercontent.com/wantnon2/c3dEngine2/master/screenshot/screenshot4.png)  
-blendShape/morph animation   
-![screenshot](https://raw.githubusercontent.com/wantnon2/c3dEngine2/master/screenshot/screenshot7.png)  
 a whole game: super single cell  
 tips:   
 after entered the level selecting page, press the debug button at the right down corner, all the levels will be unlocked.   
