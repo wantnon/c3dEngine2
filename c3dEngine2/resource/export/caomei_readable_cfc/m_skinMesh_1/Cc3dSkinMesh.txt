@@ -1,0 +1,1539 @@
+m_skinSubMesh.size 1
+m_vertexDupList.size 244
+nMeshIDvID 12
+  meshIDvID 0 0
+  meshIDvID 0 3
+  meshIDvID 0 6
+  meshIDvID 0 9
+  meshIDvID 0 12
+  meshIDvID 0 15
+  meshIDvID 0 18
+  meshIDvID 0 21
+  meshIDvID 0 24
+  meshIDvID 0 27
+  meshIDvID 0 30
+  meshIDvID 0 33
+nMeshIDvID 5
+  meshIDvID 0 268
+  meshIDvID 0 331
+  meshIDvID 0 348
+  meshIDvID 0 355
+  meshIDvID 0 430
+nMeshIDvID 7
+  meshIDvID 0 38
+  meshIDvID 0 39
+  meshIDvID 0 264
+  meshIDvID 0 269
+  meshIDvID 0 274
+  meshIDvID 0 428
+  meshIDvID 0 429
+nMeshIDvID 6
+  meshIDvID 0 37
+  meshIDvID 0 44
+  meshIDvID 0 45
+  meshIDvID 0 270
+  meshIDvID 0 275
+  meshIDvID 0 280
+nMeshIDvID 6
+  meshIDvID 0 43
+  meshIDvID 0 50
+  meshIDvID 0 51
+  meshIDvID 0 276
+  meshIDvID 0 281
+  meshIDvID 0 286
+nMeshIDvID 6
+  meshIDvID 0 49
+  meshIDvID 0 56
+  meshIDvID 0 57
+  meshIDvID 0 282
+  meshIDvID 0 287
+  meshIDvID 0 292
+nMeshIDvID 6
+  meshIDvID 0 55
+  meshIDvID 0 62
+  meshIDvID 0 63
+  meshIDvID 0 288
+  meshIDvID 0 293
+  meshIDvID 0 298
+nMeshIDvID 6
+  meshIDvID 0 61
+  meshIDvID 0 68
+  meshIDvID 0 69
+  meshIDvID 0 294
+  meshIDvID 0 299
+  meshIDvID 0 304
+nMeshIDvID 6
+  meshIDvID 0 67
+  meshIDvID 0 74
+  meshIDvID 0 75
+  meshIDvID 0 300
+  meshIDvID 0 305
+  meshIDvID 0 310
+nMeshIDvID 6
+  meshIDvID 0 73
+  meshIDvID 0 80
+  meshIDvID 0 81
+  meshIDvID 0 306
+  meshIDvID 0 311
+  meshIDvID 0 316
+nMeshIDvID 6
+  meshIDvID 0 79
+  meshIDvID 0 86
+  meshIDvID 0 87
+  meshIDvID 0 312
+  meshIDvID 0 317
+  meshIDvID 0 322
+nMeshIDvID 6
+  meshIDvID 0 85
+  meshIDvID 0 92
+  meshIDvID 0 93
+  meshIDvID 0 318
+  meshIDvID 0 323
+  meshIDvID 0 328
+nMeshIDvID 7
+  meshIDvID 0 91
+  meshIDvID 0 324
+  meshIDvID 0 329
+  meshIDvID 0 330
+  meshIDvID 0 335
+  meshIDvID 0 351
+  meshIDvID 0 356
+nMeshIDvID 6
+  meshIDvID 0 36
+  meshIDvID 0 41
+  meshIDvID 0 46
+  meshIDvID 0 97
+  meshIDvID 0 104
+  meshIDvID 0 105
+nMeshIDvID 6
+  meshIDvID 0 42
+  meshIDvID 0 47
+  meshIDvID 0 52
+  meshIDvID 0 103
+  meshIDvID 0 110
+  meshIDvID 0 111
+nMeshIDvID 6
+  meshIDvID 0 48
+  meshIDvID 0 53
+  meshIDvID 0 58
+  meshIDvID 0 109
+  meshIDvID 0 116
+  meshIDvID 0 117
+nMeshIDvID 6
+  meshIDvID 0 54
+  meshIDvID 0 59
+  meshIDvID 0 64
+  meshIDvID 0 115
+  meshIDvID 0 122
+  meshIDvID 0 123
+nMeshIDvID 6
+  meshIDvID 0 60
+  meshIDvID 0 65
+  meshIDvID 0 70
+  meshIDvID 0 121
+  meshIDvID 0 128
+  meshIDvID 0 129
+nMeshIDvID 6
+  meshIDvID 0 66
+  meshIDvID 0 71
+  meshIDvID 0 76
+  meshIDvID 0 127
+  meshIDvID 0 134
+  meshIDvID 0 135
+nMeshIDvID 6
+  meshIDvID 0 72
+  meshIDvID 0 77
+  meshIDvID 0 82
+  meshIDvID 0 133
+  meshIDvID 0 140
+  meshIDvID 0 141
+nMeshIDvID 6
+  meshIDvID 0 78
+  meshIDvID 0 83
+  meshIDvID 0 88
+  meshIDvID 0 139
+  meshIDvID 0 146
+  meshIDvID 0 147
+nMeshIDvID 6
+  meshIDvID 0 84
+  meshIDvID 0 89
+  meshIDvID 0 94
+  meshIDvID 0 145
+  meshIDvID 0 152
+  meshIDvID 0 153
+nMeshIDvID 6
+  meshIDvID 0 96
+  meshIDvID 0 101
+  meshIDvID 0 106
+  meshIDvID 0 157
+  meshIDvID 0 164
+  meshIDvID 0 165
+nMeshIDvID 6
+  meshIDvID 0 102
+  meshIDvID 0 107
+  meshIDvID 0 112
+  meshIDvID 0 163
+  meshIDvID 0 170
+  meshIDvID 0 171
+nMeshIDvID 6
+  meshIDvID 0 108
+  meshIDvID 0 113
+  meshIDvID 0 118
+  meshIDvID 0 169
+  meshIDvID 0 176
+  meshIDvID 0 177
+nMeshIDvID 6
+  meshIDvID 0 114
+  meshIDvID 0 119
+  meshIDvID 0 124
+  meshIDvID 0 175
+  meshIDvID 0 182
+  meshIDvID 0 183
+nMeshIDvID 6
+  meshIDvID 0 120
+  meshIDvID 0 125
+  meshIDvID 0 130
+  meshIDvID 0 181
+  meshIDvID 0 188
+  meshIDvID 0 189
+nMeshIDvID 6
+  meshIDvID 0 126
+  meshIDvID 0 131
+  meshIDvID 0 136
+  meshIDvID 0 187
+  meshIDvID 0 194
+  meshIDvID 0 195
+nMeshIDvID 6
+  meshIDvID 0 132
+  meshIDvID 0 137
+  meshIDvID 0 142
+  meshIDvID 0 193
+  meshIDvID 0 200
+  meshIDvID 0 201
+nMeshIDvID 6
+  meshIDvID 0 138
+  meshIDvID 0 143
+  meshIDvID 0 148
+  meshIDvID 0 199
+  meshIDvID 0 206
+  meshIDvID 0 207
+nMeshIDvID 6
+  meshIDvID 0 144
+  meshIDvID 0 149
+  meshIDvID 0 154
+  meshIDvID 0 205
+  meshIDvID 0 212
+  meshIDvID 0 213
+nMeshIDvID 7
+  meshIDvID 0 156
+  meshIDvID 0 161
+  meshIDvID 0 166
+  meshIDvID 0 216
+  meshIDvID 0 221
+  meshIDvID 0 504
+  meshIDvID 0 509
+nMeshIDvID 5
+  meshIDvID 0 162
+  meshIDvID 0 167
+  meshIDvID 0 172
+  meshIDvID 0 220
+  meshIDvID 0 226
+nMeshIDvID 7
+  meshIDvID 0 168
+  meshIDvID 0 173
+  meshIDvID 0 178
+  meshIDvID 0 224
+  meshIDvID 0 225
+  meshIDvID 0 228
+  meshIDvID 0 233
+nMeshIDvID 6
+  meshIDvID 0 174
+  meshIDvID 0 179
+  meshIDvID 0 184
+  meshIDvID 0 232
+  meshIDvID 0 234
+  meshIDvID 0 239
+nMeshIDvID 5
+  meshIDvID 0 180
+  meshIDvID 0 185
+  meshIDvID 0 190
+  meshIDvID 0 238
+  meshIDvID 0 244
+nMeshIDvID 6
+  meshIDvID 0 186
+  meshIDvID 0 191
+  meshIDvID 0 196
+  meshIDvID 0 242
+  meshIDvID 0 243
+  meshIDvID 0 250
+nMeshIDvID 7
+  meshIDvID 0 192
+  meshIDvID 0 197
+  meshIDvID 0 202
+  meshIDvID 0 248
+  meshIDvID 0 249
+  meshIDvID 0 252
+  meshIDvID 0 257
+nMeshIDvID 5
+  meshIDvID 0 198
+  meshIDvID 0 203
+  meshIDvID 0 208
+  meshIDvID 0 256
+  meshIDvID 0 262
+nMeshIDvID 7
+  meshIDvID 0 204
+  meshIDvID 0 209
+  meshIDvID 0 214
+  meshIDvID 0 260
+  meshIDvID 0 261
+  meshIDvID 0 342
+  meshIDvID 0 347
+nMeshIDvID 3
+  meshIDvID 0 337
+  meshIDvID 0 456
+  meshIDvID 0 461
+nMeshIDvID 3
+  meshIDvID 0 457
+  meshIDvID 0 462
+  meshIDvID 0 467
+nMeshIDvID 2
+  meshIDvID 0 463
+  meshIDvID 0 469
+nMeshIDvID 3
+  meshIDvID 0 470
+  meshIDvID 0 471
+  meshIDvID 0 475
+nMeshIDvID 4
+  meshIDvID 0 476
+  meshIDvID 0 477
+  meshIDvID 0 480
+  meshIDvID 0 485
+nMeshIDvID 3
+  meshIDvID 0 481
+  meshIDvID 0 486
+  meshIDvID 0 491
+nMeshIDvID 2
+  meshIDvID 0 487
+  meshIDvID 0 493
+nMeshIDvID 3
+  meshIDvID 0 494
+  meshIDvID 0 495
+  meshIDvID 0 499
+nMeshIDvID 3
+  meshIDvID 0 500
+  meshIDvID 0 501
+  meshIDvID 0 511
+nMeshIDvID 6
+  meshIDvID 0 1
+  meshIDvID 0 35
+  meshIDvID 0 266
+  meshIDvID 0 267
+  meshIDvID 0 332
+  meshIDvID 0 333
+nMeshIDvID 5
+  meshIDvID 0 2
+  meshIDvID 0 4
+  meshIDvID 0 265
+  meshIDvID 0 272
+  meshIDvID 0 273
+nMeshIDvID 5
+  meshIDvID 0 5
+  meshIDvID 0 7
+  meshIDvID 0 271
+  meshIDvID 0 278
+  meshIDvID 0 279
+nMeshIDvID 5
+  meshIDvID 0 8
+  meshIDvID 0 10
+  meshIDvID 0 277
+  meshIDvID 0 284
+  meshIDvID 0 285
+nMeshIDvID 5
+  meshIDvID 0 11
+  meshIDvID 0 13
+  meshIDvID 0 283
+  meshIDvID 0 290
+  meshIDvID 0 291
+nMeshIDvID 5
+  meshIDvID 0 14
+  meshIDvID 0 16
+  meshIDvID 0 289
+  meshIDvID 0 296
+  meshIDvID 0 297
+nMeshIDvID 5
+  meshIDvID 0 17
+  meshIDvID 0 19
+  meshIDvID 0 295
+  meshIDvID 0 302
+  meshIDvID 0 303
+nMeshIDvID 5
+  meshIDvID 0 20
+  meshIDvID 0 22
+  meshIDvID 0 301
+  meshIDvID 0 308
+  meshIDvID 0 309
+nMeshIDvID 5
+  meshIDvID 0 23
+  meshIDvID 0 25
+  meshIDvID 0 307
+  meshIDvID 0 314
+  meshIDvID 0 315
+nMeshIDvID 5
+  meshIDvID 0 26
+  meshIDvID 0 28
+  meshIDvID 0 313
+  meshIDvID 0 320
+  meshIDvID 0 321
+nMeshIDvID 5
+  meshIDvID 0 29
+  meshIDvID 0 31
+  meshIDvID 0 319
+  meshIDvID 0 326
+  meshIDvID 0 327
+nMeshIDvID 4
+  meshIDvID 0 32
+  meshIDvID 0 34
+  meshIDvID 0 325
+  meshIDvID 0 334
+nMeshIDvID 6
+  meshIDvID 0 40
+  meshIDvID 0 98
+  meshIDvID 0 99
+  meshIDvID 0 421
+  meshIDvID 0 427
+  meshIDvID 0 436
+nMeshIDvID 6
+  meshIDvID 0 90
+  meshIDvID 0 95
+  meshIDvID 0 151
+  meshIDvID 0 352
+  meshIDvID 0 397
+  meshIDvID 0 442
+nMeshIDvID 8
+  meshIDvID 0 388
+  meshIDvID 0 407
+  meshIDvID 0 408
+  meshIDvID 0 413
+  meshIDvID 0 444
+  meshIDvID 0 447
+  meshIDvID 0 450
+  meshIDvID 0 453
+nMeshIDvID 6
+  meshIDvID 0 100
+  meshIDvID 0 158
+  meshIDvID 0 159
+  meshIDvID 0 361
+  meshIDvID 0 434
+  meshIDvID 0 435
+nMeshIDvID 6
+  meshIDvID 0 150
+  meshIDvID 0 155
+  meshIDvID 0 211
+  meshIDvID 0 364
+  meshIDvID 0 393
+  meshIDvID 0 398
+nMeshIDvID 5
+  meshIDvID 0 387
+  meshIDvID 0 392
+  meshIDvID 0 409
+  meshIDvID 0 415
+  meshIDvID 0 529
+nMeshIDvID 5
+  meshIDvID 0 160
+  meshIDvID 0 359
+  meshIDvID 0 360
+  meshIDvID 0 373
+  meshIDvID 0 505
+nMeshIDvID 7
+  meshIDvID 0 210
+  meshIDvID 0 215
+  meshIDvID 0 346
+  meshIDvID 0 365
+  meshIDvID 0 366
+  meshIDvID 0 375
+  meshIDvID 0 380
+nMeshIDvID 4
+  meshIDvID 0 381
+  meshIDvID 0 386
+  meshIDvID 0 534
+  meshIDvID 0 539
+nMeshIDvID 3
+  meshIDvID 0 336
+  meshIDvID 0 341
+  meshIDvID 0 517
+nMeshIDvID 4
+  meshIDvID 0 512
+  meshIDvID 0 513
+  meshIDvID 0 522
+  meshIDvID 0 527
+nMeshIDvID 2
+  meshIDvID 0 385
+  meshIDvID 0 523
+nMeshIDvID 5
+  meshIDvID 0 367
+  meshIDvID 0 379
+  meshIDvID 0 541
+  meshIDvID 0 546
+  meshIDvID 0 551
+nMeshIDvID 6
+  meshIDvID 0 363
+  meshIDvID 0 368
+  meshIDvID 0 394
+  meshIDvID 0 540
+  meshIDvID 0 545
+  meshIDvID 0 601
+nMeshIDvID 7
+  meshIDvID 0 395
+  meshIDvID 0 396
+  meshIDvID 0 438
+  meshIDvID 0 443
+  meshIDvID 0 595
+  meshIDvID 0 600
+  meshIDvID 0 605
+nMeshIDvID 5
+  meshIDvID 0 400
+  meshIDvID 0 439
+  meshIDvID 0 589
+  meshIDvID 0 594
+  meshIDvID 0 599
+nMeshIDvID 6
+  meshIDvID 0 401
+  meshIDvID 0 402
+  meshIDvID 0 424
+  meshIDvID 0 583
+  meshIDvID 0 588
+  meshIDvID 0 593
+nMeshIDvID 7
+  meshIDvID 0 420
+  meshIDvID 0 425
+  meshIDvID 0 432
+  meshIDvID 0 437
+  meshIDvID 0 577
+  meshIDvID 0 582
+  meshIDvID 0 587
+nMeshIDvID 6
+  meshIDvID 0 357
+  meshIDvID 0 362
+  meshIDvID 0 433
+  meshIDvID 0 571
+  meshIDvID 0 576
+  meshIDvID 0 581
+nMeshIDvID 6
+  meshIDvID 0 358
+  meshIDvID 0 369
+  meshIDvID 0 374
+  meshIDvID 0 565
+  meshIDvID 0 570
+  meshIDvID 0 575
+nMeshIDvID 3
+  meshIDvID 0 516
+  meshIDvID 0 521
+  meshIDvID 0 535
+nMeshIDvID 7
+  meshIDvID 0 349
+  meshIDvID 0 353
+  meshIDvID 0 354
+  meshIDvID 0 399
+  meshIDvID 0 404
+  meshIDvID 0 440
+  meshIDvID 0 441
+nMeshIDvID 6
+  meshIDvID 0 350
+  meshIDvID 0 403
+  meshIDvID 0 422
+  meshIDvID 0 423
+  meshIDvID 0 426
+  meshIDvID 0 431
+nMeshIDvID 5
+  meshIDvID 0 217
+  meshIDvID 0 338
+  meshIDvID 0 339
+  meshIDvID 0 460
+  meshIDvID 0 508
+nMeshIDvID 7
+  meshIDvID 0 218
+  meshIDvID 0 219
+  meshIDvID 0 222
+  meshIDvID 0 227
+  meshIDvID 0 458
+  meshIDvID 0 459
+  meshIDvID 0 466
+nMeshIDvID 6
+  meshIDvID 0 223
+  meshIDvID 0 229
+  meshIDvID 0 464
+  meshIDvID 0 465
+  meshIDvID 0 468
+  meshIDvID 0 473
+nMeshIDvID 6
+  meshIDvID 0 230
+  meshIDvID 0 231
+  meshIDvID 0 235
+  meshIDvID 0 472
+  meshIDvID 0 474
+  meshIDvID 0 479
+nMeshIDvID 6
+  meshIDvID 0 236
+  meshIDvID 0 237
+  meshIDvID 0 240
+  meshIDvID 0 245
+  meshIDvID 0 478
+  meshIDvID 0 484
+nMeshIDvID 6
+  meshIDvID 0 241
+  meshIDvID 0 246
+  meshIDvID 0 251
+  meshIDvID 0 482
+  meshIDvID 0 483
+  meshIDvID 0 490
+nMeshIDvID 6
+  meshIDvID 0 247
+  meshIDvID 0 253
+  meshIDvID 0 488
+  meshIDvID 0 489
+  meshIDvID 0 492
+  meshIDvID 0 497
+nMeshIDvID 7
+  meshIDvID 0 254
+  meshIDvID 0 255
+  meshIDvID 0 258
+  meshIDvID 0 263
+  meshIDvID 0 496
+  meshIDvID 0 498
+  meshIDvID 0 503
+nMeshIDvID 5
+  meshIDvID 0 259
+  meshIDvID 0 343
+  meshIDvID 0 502
+  meshIDvID 0 510
+  meshIDvID 0 515
+nMeshIDvID 5
+  meshIDvID 0 382
+  meshIDvID 0 538
+  meshIDvID 0 553
+  meshIDvID 0 558
+  meshIDvID 0 563
+nMeshIDvID 7
+  meshIDvID 0 340
+  meshIDvID 0 371
+  meshIDvID 0 372
+  meshIDvID 0 506
+  meshIDvID 0 507
+  meshIDvID 0 518
+  meshIDvID 0 519
+nMeshIDvID 5
+  meshIDvID 0 344
+  meshIDvID 0 345
+  meshIDvID 0 376
+  meshIDvID 0 514
+  meshIDvID 0 526
+nMeshIDvID 9
+  meshIDvID 0 377
+  meshIDvID 0 378
+  meshIDvID 0 383
+  meshIDvID 0 384
+  meshIDvID 0 524
+  meshIDvID 0 525
+  meshIDvID 0 547
+  meshIDvID 0 552
+  meshIDvID 0 557
+nMeshIDvID 7
+  meshIDvID 0 370
+  meshIDvID 0 520
+  meshIDvID 0 536
+  meshIDvID 0 537
+  meshIDvID 0 559
+  meshIDvID 0 564
+  meshIDvID 0 569
+nMeshIDvID 6
+  meshIDvID 0 389
+  meshIDvID 0 390
+  meshIDvID 0 406
+  meshIDvID 0 544
+  meshIDvID 0 602
+  meshIDvID 0 603
+nMeshIDvID 6
+  meshIDvID 0 391
+  meshIDvID 0 530
+  meshIDvID 0 531
+  meshIDvID 0 542
+  meshIDvID 0 543
+  meshIDvID 0 550
+nMeshIDvID 4
+  meshIDvID 0 532
+  meshIDvID 0 548
+  meshIDvID 0 549
+  meshIDvID 0 556
+nMeshIDvID 7
+  meshIDvID 0 416
+  meshIDvID 0 417
+  meshIDvID 0 528
+  meshIDvID 0 533
+  meshIDvID 0 554
+  meshIDvID 0 555
+  meshIDvID 0 562
+nMeshIDvID 4
+  meshIDvID 0 418
+  meshIDvID 0 560
+  meshIDvID 0 561
+  meshIDvID 0 568
+nMeshIDvID 7
+  meshIDvID 0 410
+  meshIDvID 0 411
+  meshIDvID 0 414
+  meshIDvID 0 419
+  meshIDvID 0 566
+  meshIDvID 0 567
+  meshIDvID 0 574
+nMeshIDvID 5
+  meshIDvID 0 412
+  meshIDvID 0 454
+  meshIDvID 0 572
+  meshIDvID 0 573
+  meshIDvID 0 580
+nMeshIDvID 5
+  meshIDvID 0 451
+  meshIDvID 0 455
+  meshIDvID 0 578
+  meshIDvID 0 579
+  meshIDvID 0 586
+nMeshIDvID 5
+  meshIDvID 0 448
+  meshIDvID 0 452
+  meshIDvID 0 584
+  meshIDvID 0 585
+  meshIDvID 0 592
+nMeshIDvID 5
+  meshIDvID 0 445
+  meshIDvID 0 449
+  meshIDvID 0 590
+  meshIDvID 0 591
+  meshIDvID 0 598
+nMeshIDvID 5
+  meshIDvID 0 405
+  meshIDvID 0 446
+  meshIDvID 0 596
+  meshIDvID 0 597
+  meshIDvID 0 604
+nMeshIDvID 6
+  meshIDvID 0 606
+  meshIDvID 0 611
+  meshIDvID 0 649
+  meshIDvID 0 817
+  meshIDvID 0 858
+  meshIDvID 0 863
+nMeshIDvID 6
+  meshIDvID 0 607
+  meshIDvID 0 612
+  meshIDvID 0 617
+  meshIDvID 0 816
+  meshIDvID 0 821
+  meshIDvID 0 823
+nMeshIDvID 6
+  meshIDvID 0 613
+  meshIDvID 0 618
+  meshIDvID 0 623
+  meshIDvID 0 822
+  meshIDvID 0 827
+  meshIDvID 0 829
+nMeshIDvID 6
+  meshIDvID 0 619
+  meshIDvID 0 624
+  meshIDvID 0 629
+  meshIDvID 0 828
+  meshIDvID 0 833
+  meshIDvID 0 835
+nMeshIDvID 6
+  meshIDvID 0 625
+  meshIDvID 0 630
+  meshIDvID 0 635
+  meshIDvID 0 834
+  meshIDvID 0 839
+  meshIDvID 0 841
+nMeshIDvID 6
+  meshIDvID 0 631
+  meshIDvID 0 636
+  meshIDvID 0 641
+  meshIDvID 0 840
+  meshIDvID 0 845
+  meshIDvID 0 847
+nMeshIDvID 6
+  meshIDvID 0 637
+  meshIDvID 0 642
+  meshIDvID 0 647
+  meshIDvID 0 846
+  meshIDvID 0 851
+  meshIDvID 0 853
+nMeshIDvID 6
+  meshIDvID 0 643
+  meshIDvID 0 648
+  meshIDvID 0 653
+  meshIDvID 0 852
+  meshIDvID 0 857
+  meshIDvID 0 859
+nMeshIDvID 6
+  meshIDvID 0 610
+  meshIDvID 0 650
+  meshIDvID 0 651
+  meshIDvID 0 654
+  meshIDvID 0 659
+  meshIDvID 0 697
+nMeshIDvID 6
+  meshIDvID 0 608
+  meshIDvID 0 609
+  meshIDvID 0 616
+  meshIDvID 0 655
+  meshIDvID 0 660
+  meshIDvID 0 665
+nMeshIDvID 6
+  meshIDvID 0 614
+  meshIDvID 0 615
+  meshIDvID 0 622
+  meshIDvID 0 661
+  meshIDvID 0 666
+  meshIDvID 0 671
+nMeshIDvID 6
+  meshIDvID 0 620
+  meshIDvID 0 621
+  meshIDvID 0 628
+  meshIDvID 0 667
+  meshIDvID 0 672
+  meshIDvID 0 677
+nMeshIDvID 6
+  meshIDvID 0 626
+  meshIDvID 0 627
+  meshIDvID 0 634
+  meshIDvID 0 673
+  meshIDvID 0 678
+  meshIDvID 0 683
+nMeshIDvID 6
+  meshIDvID 0 632
+  meshIDvID 0 633
+  meshIDvID 0 640
+  meshIDvID 0 679
+  meshIDvID 0 684
+  meshIDvID 0 689
+nMeshIDvID 6
+  meshIDvID 0 638
+  meshIDvID 0 639
+  meshIDvID 0 646
+  meshIDvID 0 685
+  meshIDvID 0 690
+  meshIDvID 0 695
+nMeshIDvID 6
+  meshIDvID 0 644
+  meshIDvID 0 645
+  meshIDvID 0 652
+  meshIDvID 0 691
+  meshIDvID 0 696
+  meshIDvID 0 701
+nMeshIDvID 6
+  meshIDvID 0 658
+  meshIDvID 0 698
+  meshIDvID 0 699
+  meshIDvID 0 702
+  meshIDvID 0 707
+  meshIDvID 0 745
+nMeshIDvID 6
+  meshIDvID 0 656
+  meshIDvID 0 657
+  meshIDvID 0 664
+  meshIDvID 0 703
+  meshIDvID 0 708
+  meshIDvID 0 713
+nMeshIDvID 6
+  meshIDvID 0 662
+  meshIDvID 0 663
+  meshIDvID 0 670
+  meshIDvID 0 709
+  meshIDvID 0 714
+  meshIDvID 0 719
+nMeshIDvID 6
+  meshIDvID 0 668
+  meshIDvID 0 669
+  meshIDvID 0 676
+  meshIDvID 0 715
+  meshIDvID 0 720
+  meshIDvID 0 725
+nMeshIDvID 6
+  meshIDvID 0 674
+  meshIDvID 0 675
+  meshIDvID 0 682
+  meshIDvID 0 721
+  meshIDvID 0 726
+  meshIDvID 0 731
+nMeshIDvID 6
+  meshIDvID 0 680
+  meshIDvID 0 681
+  meshIDvID 0 688
+  meshIDvID 0 727
+  meshIDvID 0 732
+  meshIDvID 0 737
+nMeshIDvID 6
+  meshIDvID 0 686
+  meshIDvID 0 687
+  meshIDvID 0 694
+  meshIDvID 0 733
+  meshIDvID 0 738
+  meshIDvID 0 743
+nMeshIDvID 6
+  meshIDvID 0 692
+  meshIDvID 0 693
+  meshIDvID 0 700
+  meshIDvID 0 739
+  meshIDvID 0 744
+  meshIDvID 0 749
+nMeshIDvID 6
+  meshIDvID 0 706
+  meshIDvID 0 746
+  meshIDvID 0 747
+  meshIDvID 0 750
+  meshIDvID 0 755
+  meshIDvID 0 793
+nMeshIDvID 6
+  meshIDvID 0 704
+  meshIDvID 0 705
+  meshIDvID 0 712
+  meshIDvID 0 751
+  meshIDvID 0 756
+  meshIDvID 0 761
+nMeshIDvID 6
+  meshIDvID 0 710
+  meshIDvID 0 711
+  meshIDvID 0 718
+  meshIDvID 0 757
+  meshIDvID 0 762
+  meshIDvID 0 767
+nMeshIDvID 6
+  meshIDvID 0 716
+  meshIDvID 0 717
+  meshIDvID 0 724
+  meshIDvID 0 763
+  meshIDvID 0 768
+  meshIDvID 0 773
+nMeshIDvID 6
+  meshIDvID 0 722
+  meshIDvID 0 723
+  meshIDvID 0 730
+  meshIDvID 0 769
+  meshIDvID 0 774
+  meshIDvID 0 779
+nMeshIDvID 6
+  meshIDvID 0 728
+  meshIDvID 0 729
+  meshIDvID 0 736
+  meshIDvID 0 775
+  meshIDvID 0 780
+  meshIDvID 0 785
+nMeshIDvID 6
+  meshIDvID 0 734
+  meshIDvID 0 735
+  meshIDvID 0 742
+  meshIDvID 0 781
+  meshIDvID 0 786
+  meshIDvID 0 791
+nMeshIDvID 6
+  meshIDvID 0 740
+  meshIDvID 0 741
+  meshIDvID 0 748
+  meshIDvID 0 787
+  meshIDvID 0 792
+  meshIDvID 0 797
+nMeshIDvID 6
+  meshIDvID 0 754
+  meshIDvID 0 794
+  meshIDvID 0 795
+  meshIDvID 0 798
+  meshIDvID 0 810
+  meshIDvID 0 814
+nMeshIDvID 4
+  meshIDvID 0 752
+  meshIDvID 0 753
+  meshIDvID 0 760
+  meshIDvID 0 799
+nMeshIDvID 7
+  meshIDvID 0 758
+  meshIDvID 0 759
+  meshIDvID 0 766
+  meshIDvID 0 800
+  meshIDvID 0 801
+  meshIDvID 0 807
+  meshIDvID 0 811
+nMeshIDvID 4
+  meshIDvID 0 764
+  meshIDvID 0 765
+  meshIDvID 0 772
+  meshIDvID 0 802
+nMeshIDvID 6
+  meshIDvID 0 770
+  meshIDvID 0 771
+  meshIDvID 0 778
+  meshIDvID 0 803
+  meshIDvID 0 804
+  meshIDvID 0 808
+nMeshIDvID 4
+  meshIDvID 0 776
+  meshIDvID 0 777
+  meshIDvID 0 784
+  meshIDvID 0 805
+nMeshIDvID 7
+  meshIDvID 0 782
+  meshIDvID 0 783
+  meshIDvID 0 790
+  meshIDvID 0 806
+  meshIDvID 0 809
+  meshIDvID 0 812
+  meshIDvID 0 815
+nMeshIDvID 4
+  meshIDvID 0 788
+  meshIDvID 0 789
+  meshIDvID 0 796
+  meshIDvID 0 813
+nMeshIDvID 6
+  meshIDvID 0 818
+  meshIDvID 0 819
+  meshIDvID 0 862
+  meshIDvID 0 865
+  meshIDvID 0 906
+  meshIDvID 0 911
+nMeshIDvID 6
+  meshIDvID 0 820
+  meshIDvID 0 824
+  meshIDvID 0 825
+  meshIDvID 0 864
+  meshIDvID 0 869
+  meshIDvID 0 871
+nMeshIDvID 6
+  meshIDvID 0 826
+  meshIDvID 0 830
+  meshIDvID 0 831
+  meshIDvID 0 870
+  meshIDvID 0 875
+  meshIDvID 0 877
+nMeshIDvID 6
+  meshIDvID 0 832
+  meshIDvID 0 836
+  meshIDvID 0 837
+  meshIDvID 0 876
+  meshIDvID 0 881
+  meshIDvID 0 883
+nMeshIDvID 6
+  meshIDvID 0 838
+  meshIDvID 0 842
+  meshIDvID 0 843
+  meshIDvID 0 882
+  meshIDvID 0 887
+  meshIDvID 0 889
+nMeshIDvID 6
+  meshIDvID 0 844
+  meshIDvID 0 848
+  meshIDvID 0 849
+  meshIDvID 0 888
+  meshIDvID 0 893
+  meshIDvID 0 895
+nMeshIDvID 6
+  meshIDvID 0 850
+  meshIDvID 0 854
+  meshIDvID 0 855
+  meshIDvID 0 894
+  meshIDvID 0 899
+  meshIDvID 0 901
+nMeshIDvID 6
+  meshIDvID 0 856
+  meshIDvID 0 860
+  meshIDvID 0 861
+  meshIDvID 0 900
+  meshIDvID 0 905
+  meshIDvID 0 907
+nMeshIDvID 7
+  meshIDvID 0 866
+  meshIDvID 0 867
+  meshIDvID 0 910
+  meshIDvID 0 1060
+  meshIDvID 0 1075
+  meshIDvID 0 1090
+  meshIDvID 0 1105
+nMeshIDvID 8
+  meshIDvID 0 868
+  meshIDvID 0 872
+  meshIDvID 0 873
+  meshIDvID 0 1089
+  meshIDvID 0 1094
+  meshIDvID 0 1120
+  meshIDvID 0 1240
+  meshIDvID 0 1255
+nMeshIDvID 7
+  meshIDvID 0 874
+  meshIDvID 0 878
+  meshIDvID 0 879
+  meshIDvID 0 1239
+  meshIDvID 0 1244
+  meshIDvID 0 1286
+  meshIDvID 0 1287
+nMeshIDvID 9
+  meshIDvID 0 880
+  meshIDvID 0 884
+  meshIDvID 0 885
+  meshIDvID 0 1196
+  meshIDvID 0 1197
+  meshIDvID 0 1209
+  meshIDvID 0 1214
+  meshIDvID 0 1270
+  meshIDvID 0 1285
+nMeshIDvID 8
+  meshIDvID 0 886
+  meshIDvID 0 890
+  meshIDvID 0 891
+  meshIDvID 0 1135
+  meshIDvID 0 1150
+  meshIDvID 0 1195
+  meshIDvID 0 1226
+  meshIDvID 0 1227
+nMeshIDvID 7
+  meshIDvID 0 892
+  meshIDvID 0 896
+  meshIDvID 0 897
+  meshIDvID 0 1134
+  meshIDvID 0 1139
+  meshIDvID 0 1181
+  meshIDvID 0 1182
+nMeshIDvID 7
+  meshIDvID 0 898
+  meshIDvID 0 902
+  meshIDvID 0 903
+  meshIDvID 0 1030
+  meshIDvID 0 1045
+  meshIDvID 0 1165
+  meshIDvID 0 1180
+nMeshIDvID 7
+  meshIDvID 0 904
+  meshIDvID 0 908
+  meshIDvID 0 909
+  meshIDvID 0 1029
+  meshIDvID 0 1034
+  meshIDvID 0 1076
+  meshIDvID 0 1077
+nMeshIDvID 4
+  meshIDvID 0 1059
+  meshIDvID 0 1064
+  meshIDvID 0 1106
+  meshIDvID 0 1107
+nMeshIDvID 4
+  meshIDvID 0 1119
+  meshIDvID 0 1124
+  meshIDvID 0 1256
+  meshIDvID 0 1257
+nMeshIDvID 3
+  meshIDvID 0 1210
+  meshIDvID 0 1269
+  meshIDvID 0 1274
+nMeshIDvID 3
+  meshIDvID 0 1151
+  meshIDvID 0 1152
+  meshIDvID 0 1225
+nMeshIDvID 4
+  meshIDvID 0 1046
+  meshIDvID 0 1047
+  meshIDvID 0 1164
+  meshIDvID 0 1169
+nMeshIDvID 4
+  meshIDvID 0 1126
+  meshIDvID 0 1141
+  meshIDvID 0 1156
+  meshIDvID 0 1171
+nMeshIDvID 3
+  meshIDvID 0 1186
+  meshIDvID 0 1201
+  meshIDvID 0 1216
+nMeshIDvID 4
+  meshIDvID 0 1021
+  meshIDvID 0 1036
+  meshIDvID 0 1051
+  meshIDvID 0 1066
+nMeshIDvID 4
+  meshIDvID 0 1231
+  meshIDvID 0 1246
+  meshIDvID 0 1261
+  meshIDvID 0 1276
+nMeshIDvID 3
+  meshIDvID 0 1081
+  meshIDvID 0 1096
+  meshIDvID 0 1111
+nMeshIDvID 6
+  meshIDvID 0 956
+  meshIDvID 0 957
+  meshIDvID 0 972
+  meshIDvID 0 977
+  meshIDvID 0 1033
+  meshIDvID 0 1078
+nMeshIDvID 6
+  meshIDvID 0 955
+  meshIDvID 0 973
+  meshIDvID 0 1025
+  meshIDvID 0 1026
+  meshIDvID 0 1068
+  meshIDvID 0 1073
+nMeshIDvID 4
+  meshIDvID 0 1022
+  meshIDvID 0 1024
+  meshIDvID 0 1065
+  meshIDvID 0 1069
+nMeshIDvID 6
+  meshIDvID 0 958
+  meshIDvID 0 964
+  meshIDvID 0 1031
+  meshIDvID 0 1032
+  meshIDvID 0 1044
+  meshIDvID 0 1049
+nMeshIDvID 6
+  meshIDvID 0 954
+  meshIDvID 0 959
+  meshIDvID 0 962
+  meshIDvID 0 963
+  meshIDvID 0 1027
+  meshIDvID 0 1042
+nMeshIDvID 6
+  meshIDvID 0 1020
+  meshIDvID 0 1023
+  meshIDvID 0 1028
+  meshIDvID 0 1037
+  meshIDvID 0 1040
+  meshIDvID 0 1041
+nMeshIDvID 3
+  meshIDvID 0 960
+  meshIDvID 0 965
+  meshIDvID 0 1048
+nMeshIDvID 3
+  meshIDvID 0 961
+  meshIDvID 0 1038
+  meshIDvID 0 1043
+nMeshIDvID 2
+  meshIDvID 0 1035
+  meshIDvID 0 1039
+nMeshIDvID 3
+  meshIDvID 0 968
+  meshIDvID 0 969
+  meshIDvID 0 1063
+nMeshIDvID 3
+  meshIDvID 0 967
+  meshIDvID 0 1055
+  meshIDvID 0 1056
+nMeshIDvID 2
+  meshIDvID 0 1052
+  meshIDvID 0 1054
+nMeshIDvID 6
+  meshIDvID 0 970
+  meshIDvID 0 976
+  meshIDvID 0 1061
+  meshIDvID 0 1062
+  meshIDvID 0 1074
+  meshIDvID 0 1079
+nMeshIDvID 6
+  meshIDvID 0 966
+  meshIDvID 0 971
+  meshIDvID 0 974
+  meshIDvID 0 975
+  meshIDvID 0 1057
+  meshIDvID 0 1072
+nMeshIDvID 6
+  meshIDvID 0 1050
+  meshIDvID 0 1053
+  meshIDvID 0 1058
+  meshIDvID 0 1067
+  meshIDvID 0 1070
+  meshIDvID 0 1071
+nMeshIDvID 6
+  meshIDvID 0 1004
+  meshIDvID 0 1005
+  meshIDvID 0 1018
+  meshIDvID 0 1093
+  meshIDvID 0 1121
+  meshIDvID 0 1122
+nMeshIDvID 6
+  meshIDvID 0 1003
+  meshIDvID 0 1014
+  meshIDvID 0 1019
+  meshIDvID 0 1085
+  meshIDvID 0 1086
+  meshIDvID 0 1117
+nMeshIDvID 5
+  meshIDvID 0 1082
+  meshIDvID 0 1084
+  meshIDvID 0 1110
+  meshIDvID 0 1113
+  meshIDvID 0 1118
+nMeshIDvID 6
+  meshIDvID 0 1006
+  meshIDvID 0 1012
+  meshIDvID 0 1091
+  meshIDvID 0 1092
+  meshIDvID 0 1104
+  meshIDvID 0 1109
+nMeshIDvID 6
+  meshIDvID 0 1002
+  meshIDvID 0 1007
+  meshIDvID 0 1010
+  meshIDvID 0 1011
+  meshIDvID 0 1087
+  meshIDvID 0 1102
+nMeshIDvID 6
+  meshIDvID 0 1080
+  meshIDvID 0 1083
+  meshIDvID 0 1088
+  meshIDvID 0 1097
+  meshIDvID 0 1100
+  meshIDvID 0 1101
+nMeshIDvID 3
+  meshIDvID 0 1008
+  meshIDvID 0 1013
+  meshIDvID 0 1108
+nMeshIDvID 3
+  meshIDvID 0 1009
+  meshIDvID 0 1098
+  meshIDvID 0 1103
+nMeshIDvID 2
+  meshIDvID 0 1095
+  meshIDvID 0 1099
+nMeshIDvID 3
+  meshIDvID 0 1016
+  meshIDvID 0 1017
+  meshIDvID 0 1123
+nMeshIDvID 3
+  meshIDvID 0 1015
+  meshIDvID 0 1115
+  meshIDvID 0 1116
+nMeshIDvID 2
+  meshIDvID 0 1112
+  meshIDvID 0 1114
+nMeshIDvID 6
+  meshIDvID 0 914
+  meshIDvID 0 915
+  meshIDvID 0 930
+  meshIDvID 0 935
+  meshIDvID 0 1138
+  meshIDvID 0 1183
+nMeshIDvID 6
+  meshIDvID 0 913
+  meshIDvID 0 931
+  meshIDvID 0 1130
+  meshIDvID 0 1131
+  meshIDvID 0 1173
+  meshIDvID 0 1178
+nMeshIDvID 4
+  meshIDvID 0 1127
+  meshIDvID 0 1129
+  meshIDvID 0 1170
+  meshIDvID 0 1174
+nMeshIDvID 6
+  meshIDvID 0 916
+  meshIDvID 0 922
+  meshIDvID 0 1136
+  meshIDvID 0 1137
+  meshIDvID 0 1149
+  meshIDvID 0 1154
+nMeshIDvID 6
+  meshIDvID 0 912
+  meshIDvID 0 917
+  meshIDvID 0 920
+  meshIDvID 0 921
+  meshIDvID 0 1132
+  meshIDvID 0 1147
+nMeshIDvID 6
+  meshIDvID 0 1125
+  meshIDvID 0 1128
+  meshIDvID 0 1133
+  meshIDvID 0 1142
+  meshIDvID 0 1145
+  meshIDvID 0 1146
+nMeshIDvID 3
+  meshIDvID 0 918
+  meshIDvID 0 923
+  meshIDvID 0 1153
+nMeshIDvID 3
+  meshIDvID 0 919
+  meshIDvID 0 1143
+  meshIDvID 0 1148
+nMeshIDvID 2
+  meshIDvID 0 1140
+  meshIDvID 0 1144
+nMeshIDvID 3
+  meshIDvID 0 926
+  meshIDvID 0 927
+  meshIDvID 0 1168
+nMeshIDvID 3
+  meshIDvID 0 925
+  meshIDvID 0 1160
+  meshIDvID 0 1161
+nMeshIDvID 2
+  meshIDvID 0 1157
+  meshIDvID 0 1159
+nMeshIDvID 6
+  meshIDvID 0 928
+  meshIDvID 0 934
+  meshIDvID 0 1166
+  meshIDvID 0 1167
+  meshIDvID 0 1179
+  meshIDvID 0 1184
+nMeshIDvID 6
+  meshIDvID 0 924
+  meshIDvID 0 929
+  meshIDvID 0 932
+  meshIDvID 0 933
+  meshIDvID 0 1162
+  meshIDvID 0 1177
+nMeshIDvID 6
+  meshIDvID 0 1155
+  meshIDvID 0 1158
+  meshIDvID 0 1163
+  meshIDvID 0 1172
+  meshIDvID 0 1175
+  meshIDvID 0 1176
+nMeshIDvID 6
+  meshIDvID 0 940
+  meshIDvID 0 950
+  meshIDvID 0 951
+  meshIDvID 0 1194
+  meshIDvID 0 1199
+  meshIDvID 0 1228
+nMeshIDvID 6
+  meshIDvID 0 938
+  meshIDvID 0 939
+  meshIDvID 0 952
+  meshIDvID 0 1192
+  meshIDvID 0 1220
+  meshIDvID 0 1221
+nMeshIDvID 5
+  meshIDvID 0 1187
+  meshIDvID 0 1190
+  meshIDvID 0 1191
+  meshIDvID 0 1215
+  meshIDvID 0 1222
+nMeshIDvID 6
+  meshIDvID 0 936
+  meshIDvID 0 941
+  meshIDvID 0 944
+  meshIDvID 0 945
+  meshIDvID 0 1198
+  meshIDvID 0 1213
+nMeshIDvID 6
+  meshIDvID 0 937
+  meshIDvID 0 943
+  meshIDvID 0 1188
+  meshIDvID 0 1193
+  meshIDvID 0 1205
+  meshIDvID 0 1206
+nMeshIDvID 4
+  meshIDvID 0 1185
+  meshIDvID 0 1189
+  meshIDvID 0 1202
+  meshIDvID 0 1204
+nMeshIDvID 3
+  meshIDvID 0 946
+  meshIDvID 0 1211
+  meshIDvID 0 1212
+nMeshIDvID 3
+  meshIDvID 0 942
+  meshIDvID 0 947
+  meshIDvID 0 1207
+nMeshIDvID 3
+  meshIDvID 0 1200
+  meshIDvID 0 1203
+  meshIDvID 0 1208
+nMeshIDvID 3
+  meshIDvID 0 949
+  meshIDvID 0 1224
+  meshIDvID 0 1229
+nMeshIDvID 3
+  meshIDvID 0 948
+  meshIDvID 0 953
+  meshIDvID 0 1219
+nMeshIDvID 3
+  meshIDvID 0 1217
+  meshIDvID 0 1218
+  meshIDvID 0 1223
+nMeshIDvID 6
+  meshIDvID 0 980
+  meshIDvID 0 981
+  meshIDvID 0 996
+  meshIDvID 0 1001
+  meshIDvID 0 1243
+  meshIDvID 0 1288
+nMeshIDvID 6
+  meshIDvID 0 979
+  meshIDvID 0 997
+  meshIDvID 0 1235
+  meshIDvID 0 1236
+  meshIDvID 0 1278
+  meshIDvID 0 1283
+nMeshIDvID 4
+  meshIDvID 0 1232
+  meshIDvID 0 1234
+  meshIDvID 0 1275
+  meshIDvID 0 1279
+nMeshIDvID 6
+  meshIDvID 0 982
+  meshIDvID 0 988
+  meshIDvID 0 1241
+  meshIDvID 0 1242
+  meshIDvID 0 1254
+  meshIDvID 0 1259
+nMeshIDvID 6
+  meshIDvID 0 978
+  meshIDvID 0 983
+  meshIDvID 0 986
+  meshIDvID 0 987
+  meshIDvID 0 1237
+  meshIDvID 0 1252
+nMeshIDvID 6
+  meshIDvID 0 1230
+  meshIDvID 0 1233
+  meshIDvID 0 1238
+  meshIDvID 0 1247
+  meshIDvID 0 1250
+  meshIDvID 0 1251
+nMeshIDvID 3
+  meshIDvID 0 984
+  meshIDvID 0 989
+  meshIDvID 0 1258
+nMeshIDvID 3
+  meshIDvID 0 985
+  meshIDvID 0 1248
+  meshIDvID 0 1253
+nMeshIDvID 2
+  meshIDvID 0 1245
+  meshIDvID 0 1249
+nMeshIDvID 3
+  meshIDvID 0 992
+  meshIDvID 0 993
+  meshIDvID 0 1273
+nMeshIDvID 3
+  meshIDvID 0 991
+  meshIDvID 0 1265
+  meshIDvID 0 1266
+nMeshIDvID 2
+  meshIDvID 0 1262
+  meshIDvID 0 1264
+nMeshIDvID 6
+  meshIDvID 0 994
+  meshIDvID 0 1000
+  meshIDvID 0 1271
+  meshIDvID 0 1272
+  meshIDvID 0 1284
+  meshIDvID 0 1289
+nMeshIDvID 6
+  meshIDvID 0 990
+  meshIDvID 0 995
+  meshIDvID 0 998
+  meshIDvID 0 999
+  meshIDvID 0 1267
+  meshIDvID 0 1282
+nMeshIDvID 6
+  meshIDvID 0 1260
+  meshIDvID 0 1263
+  meshIDvID 0 1268
+  meshIDvID 0 1277
+  meshIDvID 0 1280
+  meshIDvID 0 1281
+RTmat 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+scale 1.000000 1.000000 1.000000
+m_aniLayerList.size 1

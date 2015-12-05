@@ -1,0 +1,89 @@
+modelScale 1.0
+modelOffsetVec 0 0 0
+
+nMesh 8
+0 ene
+1 shell
+2 core
+3 ene
+4 ene
+5 ene
+6 legs
+7 body
+
+core 
+diffuse 0.7 0 0 1
+ambient 0.4 0 0 1
+specular -1 -1 -1 -1
+shininess 20
+isHighlightUntransp 1 
+
+ene 
+diffuse 0 0.7 0 1
+ambient 0 0.4 0 1
+specular -1 -1 -1 -1
+shininess -1
+isHighlightUntransp -1 
+
+shell 
+diffuse 1 1 1 1
+ambient 0.5 0.5 0.5 1
+specular -1 -1 -1 -1
+shininess -1
+isHighlightUntransp -1 
+
+legs 
+diffuse 0 0 0.7 1
+ambient 0 0 0.4 1
+specular -1 -1 -1 -1
+shininess -1
+isHighlightUntransp -1 
+
+body 
+diffuse 0.8 0.8 0.8 0.54
+ambient 0.8 0.8 0.8 1
+specular 2 2 2 1
+shininess 20
+isHighlightUntransp 1 
+
+tooth 
+diffuse -1 -1 -1 -1
+ambient -1 -1 -1 -1
+specular -1 -1 -1 -1
+shininess -1
+isHighlightUntransp -1 
+
+eye
+diffuse -1 -1 -1 -1
+ambient -1 -1 -1 -1
+specular -1 -1 -1 -1
+shininess -1
+isHighlightUntransp -1 
+
+wingL
+diffuse -1 -1 -1 -1
+ambient -1 -1 -1 -1
+specular -1 -1 -1 -1
+shininess -1
+isHighlightUntransp -1 
+
+wingR
+diffuse -1 -1 -1 -1
+ambient -1 -1 -1 -1
+specular -1 -1 -1 -1
+shininess -1
+isHighlightUntransp -1 
+
+Rc_small_normal 2.0
+Rc_small_flat 0.75
+Rc 16
+H_causeFlat 150
+H_sinkInWater 0.1
+v_legsRot 8
+v_forward_roll 0
+v_back_roll 0
+isfly 0
+flyRange_relativeToInitPos -200 209 -50 200 -200 200
+initiativeAttack 1
+vup_autoJump 3
+v_autoForward 1.2

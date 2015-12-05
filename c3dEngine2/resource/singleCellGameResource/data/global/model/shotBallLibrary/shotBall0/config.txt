@@ -1,0 +1,10 @@
+scale 1.3
+vy0 0
+gravity 0
+reachDis 300.0
+hurt 1
+hurtDestroyablePlatform 0
+blastType blast_small
+Rc 0
+launchSound shotBallLaunch1.wav
+collisionWithSolidSound hit_biubiu.wav

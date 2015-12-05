@@ -1,0 +1,2 @@
+audioFileName backGround2.wav
+alSourcePos 0 0 0

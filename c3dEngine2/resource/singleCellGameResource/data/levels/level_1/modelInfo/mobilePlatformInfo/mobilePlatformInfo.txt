@@ -1,0 +1,26 @@
+1
+ID 0
+triggerType_mov noNeedToTrigger
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.65
+bounceVup 0
+initMovPercentage 0
+-249.47 242.385 17.3212 
+-249.47 140.385 17.3212 
+1.5
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+30 5 30
+#
+

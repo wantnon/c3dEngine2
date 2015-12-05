@@ -1,0 +1,61 @@
+6
+
+ID 0
+bubble_glow
+sound_eaten eat_key.wav
+15.5099 990.146 898.056
+20
+0 0 0
+geneCube
+keyAdd
+
+
+
+ID 1
+bubble_heart
+sound_eaten eat_coin.wav
+31.2369 274.035 -816.522
+20
+0 0 0
+coin
+coinAdd
+
+ID 2
+bubble_heart
+sound_eaten eat_coin.wav
+32.2191 79.2044 639.957
+20
+0 0 0
+coin
+coinAdd
+
+
+ID 3
+bubble_ball
+sound_eaten eat_life.wav
+-1.29363 50.688 50.6392
+20
+0 0 0
+c6h6cl2n2o4s2
+lifeAdd
+
+
+ID 4
+bubble_ball
+sound_eaten eat_coin.wav
+-90.2365 710.736 390.649
+20
+0 0 0
+coin
+coinAdd
+
+
+ID 5
+bubble_ball
+sound_eaten eat_coin.wav
+24.0078 404.273 -550.576
+20
+0 0 0
+coin
+coinAdd
+#

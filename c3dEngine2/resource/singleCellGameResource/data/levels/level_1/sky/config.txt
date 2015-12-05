@@ -1,0 +1,3 @@
+skyTexID 1
+centerY -100
+initRotAngle 0

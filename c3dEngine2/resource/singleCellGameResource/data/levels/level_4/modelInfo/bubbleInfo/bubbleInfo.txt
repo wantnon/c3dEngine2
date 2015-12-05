@@ -1,0 +1,20 @@
+2
+
+ID 0
+bubble_glow
+sound_eaten eat_key.wav
+6 736 -1239
+20
+0 0 0
+geneCube
+keyAdd
+
+ID 1
+bubble_ball
+sound_eaten eat_life.wav
+328 120 139
+20
+0 0 0
+c6h6cl2n2o4s2
+lifeAdd
+#

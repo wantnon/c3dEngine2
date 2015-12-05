@@ -1,0 +1,150 @@
+16
+
+ID 0
+bubble_glow
+sound_eaten eat_key.wav
+-0.186309 622.762 -1620.23
+20
+0 0 0
+geneCube
+keyAdd
+
+ID 1
+bubble_heart
+sound_eaten eat_coin.wav
+3.31195 303.886 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 2
+bubble_heart
+sound_eaten eat_coin.wav
+183.721 613.177 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 3
+bubble_heart
+sound_eaten eat_coin.wav
+91.7392 348.629 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 4
+bubble_heart
+sound_eaten eat_coin.wav
+170.77 416.295 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 5
+bubble_heart
+sound_eaten eat_coin.wav
+217.487 516.172 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+
+ID 6
+bubble_heart
+sound_eaten eat_coin.wav
+7.59876 644.986 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 7
+bubble_heart
+sound_eaten eat_coin.wav
+98.132 663.294 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 8
+bubble_heart
+sound_eaten eat_coin.wav
+-97.2987 663.294 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 9
+bubble_heart
+sound_eaten eat_coin.wav
+-179.515 612.679 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 10
+bubble_heart
+sound_eaten eat_coin.wav
+-206.733 518.607 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 11
+bubble_heart
+sound_eaten eat_coin.wav
+-179.009 424.755 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+ID 12
+bubble_heart
+sound_eaten eat_coin.wav
+-93.1471 355.288 -875.427
+20
+0 0 0
+coin
+coinAdd
+
+
+ID 13
+bubble_ball
+sound_eaten blast.wav
+39.5755 131.472 521.846
+20
+0 0 0
+bomb
+blast_and_lifeDec
+
+
+ID 14
+bubble_ball
+sound_eaten blast.wav
+-42.9709 131.472 522.019
+20
+0 0 0
+bomb
+blast_and_lifeDec
+
+
+ID 15
+bubble_ball
+sound_eaten blast.wav
+-5.1711 131.472 522.019
+20
+0 0 0
+bomb
+blast_and_lifeDec
+#

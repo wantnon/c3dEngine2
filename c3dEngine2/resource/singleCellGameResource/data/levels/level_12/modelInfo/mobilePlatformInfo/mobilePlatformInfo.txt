@@ -1,0 +1,173 @@
+7
+
+ID 0
+triggerType_mov touchAnyPart
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.65
+bounceVup 0
+initMovPercentage 0
+0 225 -120
+0 225 0
+1.5
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+50 30 100
+
+ID 1
+triggerType_mov touchAnyPart
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.65
+bounceVup 0
+initMovPercentage 0
+0 285 -120
+0 285 0
+1.5
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+50 30 100
+
+ID 2
+triggerType_mov touchAnyPart
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.65
+bounceVup 0
+initMovPercentage 0
+0 345 -120
+0 345 0
+1.5
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+50 30 100
+
+ID 3
+triggerType_mov touchAnyPart
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.65
+bounceVup 0
+initMovPercentage 0
+0 405 -120
+0 405 0
+1.5
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+50 30 100
+
+ID 4
+triggerType_mov touchAnyPart
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.65
+bounceVup 0
+initMovPercentage 0
+0 465 -120
+0 465 0
+1.5
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+50 30 100
+
+
+
+ID 5
+triggerType_mov touchWall
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 1
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.65
+bounceVup 0
+initMovPercentage 0
+0 120 260
+0 40 260
+2
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+30 90 60
+
+
+ID 6
+triggerType_mov touchWall
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.65
+bounceVup 0
+initMovPercentage 0
+0 79.4722 521.004
+130 79.4722 521.004
+2.5
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+60 30 40
+#

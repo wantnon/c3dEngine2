@@ -1,0 +1,127 @@
+5
+
+ID 0
+triggerType_mov noNeedToTrigger
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.2
+bounceVup 0
+initMovPercentage 0
+4 20 1000
+4 -100 1000
+1.2
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+60 80 25
+
+ID 1
+triggerType_mov noNeedToTrigger
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.2
+bounceVup 0
+initMovPercentage 0.4
+4 20 800
+4 -100 800
+1.2
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+60 80 25
+
+
+ID 2
+triggerType_mov noNeedToTrigger
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.2
+bounceVup 0
+initMovPercentage 0.8
+4 20 600
+4 -100 600
+1.2
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+60 80 25
+
+
+ID 3
+triggerType_mov noNeedToTrigger
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.2
+bounceVup 0
+initMovPercentage 0.2
+4 20 400
+4 -100 400
+1.2
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+60 80 25
+
+ID 4
+triggerType_mov noNeedToTrigger
+triggerType_rot noNeedToTrigger
+shotTrigger 1
+applyTriggerLock_mov 0
+applyTriggerLock_rot 0
+motionSoundAfterTrigger stone_move.wav
+motionSoundAfterTrigger_looping 1
+k_inertialVup 0.2
+bounceVup 0
+initMovPercentage 0.6
+4 20 200
+4 -100 200
+1.2
+0 1 0
+0
+rotAnglePerTrigger 360
+initRotAxis 0 1 0
+initRotAngle 0
+destroyable 0
+cube_program
+marble.png
+60 80 25
+#
+
+
+

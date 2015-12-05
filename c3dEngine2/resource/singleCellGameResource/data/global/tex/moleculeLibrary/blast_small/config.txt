@@ -1,0 +1,5 @@
+1
+0 0 0
+1
+effect useColorValueAsAlpha
+timeCountBetweenFrame 10

@@ -1,0 +1,103 @@
+10
+
+ID 0
+bubble_glow
+sound_eaten eat_key.wav
+111 931 -2904
+20
+0 0 0
+geneCube
+keyAdd
+
+
+ID 1
+bubble_heart
+sound_eaten null
+128 756 -1272
+20
+0 8 0
+fire3
+noMatch
+
+
+ID 2
+bubble_ball
+sound_eaten blast.wav
+8 560 -962
+20
+0 0 0
+bomb
+blast_and_lifeDec
+
+ID 3
+bubble_ball
+sound_eaten eat_coin.wav
+13 320 -1525
+20
+0 0 0
+coin
+coinAdd
+
+ID 4
+bubble_glow
+sound_eaten transport.wav
+11 305 -1838
+20
+0 0 0
+blackHole
+transport
+blackHole_A
+blackHole_B
+
+
+ID 5
+bubble_glow
+sound_eaten transport.wav
+522 235 -1584
+20
+0 0 0
+blackHole
+transport
+blackHole_B
+blackHole_A
+
+
+ID 6
+bubble_ball
+sound_eaten blast.wav
+903 289 -1646
+20
+0 0 0
+bomb
+blast_and_lifeDec
+
+
+ID 7
+bubble_ball
+sound_eaten eat_life.wav
+592 235 -1584
+20
+0 0 0
+c6h6cl2n2o4s2
+lifeAdd
+
+
+ID 8
+bubble_glow
+sound_eaten eat_checkPoint.wav
+18 432 -802
+20
+0 0 0
+checkPoint
+checkPointUpdate
+
+
+ID 9
+bubble_glow
+sound_eaten eat_checkPoint.wav
+118 442 -2395
+20
+0 0 0
+checkPoint
+checkPointUpdate
+#

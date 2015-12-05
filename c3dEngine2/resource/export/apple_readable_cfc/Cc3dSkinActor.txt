@@ -1,0 +1,5 @@
+notValueOnly
+m_aniLayerIndex 0
+m_interval 0.000000
+m_aniLayerInfoList.size 0
+m_skinMeshList.size 2

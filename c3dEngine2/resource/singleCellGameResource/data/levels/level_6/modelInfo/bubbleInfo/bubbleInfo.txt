@@ -1,0 +1,44 @@
+4
+
+ID 0
+bubble_glow
+sound_eaten eat_key.wav
+157 561 -2063
+20
+0 0 0
+geneCube
+keyAdd
+
+
+ID 1
+bubble_ball
+sound_eaten eat_coin.wav
+508 310 -839
+20
+0 0 0
+coin
+coinAdd
+
+
+
+ID 2
+bubble_ball
+sound_eaten eat_coin.wav
+814 357 -839
+20
+0 0 0
+coin
+coinAdd
+
+
+ID 3
+bubble_glow
+sound_eaten eat_checkPoint.wav
+231 842 -830
+20
+0 0 0
+checkPoint
+checkPointUpdate
+#
+
+

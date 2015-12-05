@@ -1,0 +1,9 @@
+modelScale     0.8
+seatPos_local  0 1.5 -5
+Rc 		38
+Rc_getOnShip	15
+Rc_small	26
+H_sinkInWater 	6.72
+flyable 1
+engineSound shipEngineSound1.wav
+collisionSound shipCollisionSound1.wav

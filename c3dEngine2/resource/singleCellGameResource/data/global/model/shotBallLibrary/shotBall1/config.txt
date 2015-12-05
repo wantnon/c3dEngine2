@@ -1,0 +1,10 @@
+scale 2
+vy0 3
+gravity 0.12
+reachDis 10000
+hurt 10
+hurtDestroyablePlatform 100
+blastType blast_big0
+Rc 20
+launchSound shotBallLaunch2.wav
+collisionWithSolidSound null

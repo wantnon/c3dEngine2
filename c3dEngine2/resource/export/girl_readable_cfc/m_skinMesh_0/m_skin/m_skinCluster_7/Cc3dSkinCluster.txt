@@ -1,0 +1,5 @@
+m_vertexIndexList.size 2
+248 249 
+m_vertexWeightList.size 2
+0.386562 1.000000 
+m_aniLayerList.size 1

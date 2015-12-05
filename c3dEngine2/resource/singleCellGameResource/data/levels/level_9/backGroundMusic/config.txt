@@ -1,0 +1,2 @@
+audioFileName backGround7.wav
+alSourcePos 0 60 0

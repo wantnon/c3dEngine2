@@ -1,0 +1,2 @@
+m_skinType 0
+m_clusterList.size 13
