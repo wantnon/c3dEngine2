@@ -29,6 +29,4 @@ iOS:
 1, 例如想运行app_box这个demo,进入app_box/proj.ios目录。
 2, 用Xcode打开.xcodeproj文件。
 3, 运行.
-注意：
-1，目前不支持iphone6模拟器，只能在iphone5模拟器下运行。
-2，有些demo没有iOS版本。
+注意：目前不支持iphone6模拟器，只能在iphone5模拟器下运行。
