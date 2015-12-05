@@ -206,6 +206,12 @@
     <ClInclude Include="..\projcode\pages\viewingTipPage.h">
       <Filter>projcode\pages</Filter>
     </ClInclude>
+    <ClInclude Include="..\projcode\gestureAnalyzer.h">
+      <Filter>projcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\touchSequence.h">
+      <Filter>projcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\projcode\initGame.cpp">
@@ -375,6 +381,12 @@
     </ClCompile>
     <ClCompile Include="mainWindow.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\touchSequence.cpp">
+      <Filter>projcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gestureAnalyzer.cpp">
+      <Filter>projcode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

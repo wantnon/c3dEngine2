@@ -246,6 +246,7 @@ GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minF
 	}else{
 		C3DASSERT(false);
 	}
+	glGenerateMipmap(GL_TEXTURE_2D);
 	
 	C3DCHECK_GL_ERROR_DEBUG();
 	

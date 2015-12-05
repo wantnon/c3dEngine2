@@ -67,12 +67,6 @@
     <Filter Include="extension\ui">
       <UniqueIdentifier>{4a095ae8-4b4f-4f8b-9bdc-465964e5d0ac}</UniqueIdentifier>
     </Filter>
-    <Filter Include="c3dExtension\fbxLoader">
-      <UniqueIdentifier>{60a20b94-31eb-45d7-b535-f648331ca297}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="c3dExtension\fbxLoader\win32">
-      <UniqueIdentifier>{8ca6aaf3-b4ad-4b88-a5f1-2fd9a27d9a24}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\c3dEngine\common\c3dAL.h">
@@ -130,9 +124,6 @@
       <Filter>c3dEngine\core</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\c3dEngine\core\c3dGeoMath.h">
-      <Filter>c3dEngine\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\c3dEngine\core\c3dGestureAnalyzer.h">
       <Filter>c3dEngine\core</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\c3dEngine\core\c3dGLdebug.h">
@@ -217,9 +208,6 @@
       <Filter>c3dEngine\core</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\c3dEngine\core\c3dTextureCache.h">
-      <Filter>c3dEngine\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\c3dEngine\core\c3dTouchSequence.h">
       <Filter>c3dEngine\core</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\c3dEngine\core\c3dTransform.h">
@@ -321,9 +309,6 @@
     <ClInclude Include="..\..\..\c3dEngine\c3d.h">
       <Filter>c3dEngine</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\c3dSkinActor.h">
-      <Filter>c3dExtension\fbxLoader</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\c3dExtension\c3dExtension.h">
       <Filter>c3dExtension</Filter>
     </ClInclude>
@@ -347,12 +332,6 @@
     </ClInclude>
     <ClInclude Include="..\..\..\extension\extension.h">
       <Filter>extension</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxLoader.h">
-      <Filter>c3dExtension\fbxLoader\win32</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxOneLoad.h">
-      <Filter>c3dExtension\fbxLoader\win32</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\GL.h">
       <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
@@ -411,9 +390,6 @@
       <Filter>c3dEngine\core</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\c3dEngine\core\c3dGeoMath.cpp">
-      <Filter>c3dEngine\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\c3dEngine\core\c3dGestureAnalyzer.cpp">
       <Filter>c3dEngine\core</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\c3dEngine\core\c3dGLdebug.cpp">
@@ -500,9 +476,6 @@
     <ClCompile Include="..\..\..\c3dEngine\core\c3dTextureCache.cpp">
       <Filter>c3dEngine\core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\c3dEngine\core\c3dTouchSequence.cpp">
-      <Filter>c3dEngine\core</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\c3dEngine\core\c3dTransform.cpp">
       <Filter>c3dEngine\core</Filter>
     </ClCompile>
@@ -548,9 +521,6 @@
     <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dTexturePlatformDepend.cpp">
       <Filter>c3dEngine\platform\win32</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\c3dSkinActor.cpp">
-      <Filter>c3dExtension\fbxLoader</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\extension\geometry\geoMath.cpp">
       <Filter>extension\geometry</Filter>
     </ClCompile>
@@ -568,12 +538,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\extension\ui\button.cpp">
       <Filter>extension\ui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxLoader.cpp">
-      <Filter>c3dExtension\fbxLoader\win32</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxOneLoad.cpp">
-      <Filter>c3dExtension\fbxLoader\win32</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -11,10 +11,9 @@
 #include <iostream>
 #include <limits>
 using namespace std;
-#include "c3dVector.h"
+#include "c3d.h"
 #include "touchSequence.h"
-#include "c3dDeviceAndOSInfo.h"
-#include "c3dGlobalTimer.h"
+
 
 class CgestureAnalyzer
 {

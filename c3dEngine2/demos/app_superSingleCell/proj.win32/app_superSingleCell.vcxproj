@@ -190,6 +190,7 @@
     <ClInclude Include="..\projcode\gameObjs\sky.h" />
     <ClInclude Include="..\projcode\gameObjs\sprite.h" />
     <ClInclude Include="..\projcode\gameObjs\water.h" />
+    <ClInclude Include="..\projcode\gestureAnalyzer.h" />
     <ClInclude Include="..\projcode\global\define.h" />
     <ClInclude Include="..\projcode\global\gameSettings.h" />
     <ClInclude Include="..\projcode\global\gameState.h" />
@@ -218,6 +219,7 @@
     <ClInclude Include="..\projcode\pages\startPage.h" />
     <ClInclude Include="..\projcode\pages\succedPage.h" />
     <ClInclude Include="..\projcode\pages\viewingTipPage.h" />
+    <ClInclude Include="..\projcode\touchSequence.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
@@ -248,6 +250,7 @@
     <ClCompile Include="..\projcode\gameObjs\sky.cpp" />
     <ClCompile Include="..\projcode\gameObjs\sprite.cpp" />
     <ClCompile Include="..\projcode\gameObjs\water.cpp" />
+    <ClCompile Include="..\projcode\gestureAnalyzer.cpp" />
     <ClCompile Include="..\projcode\global\define.cpp" />
     <ClCompile Include="..\projcode\global\gameSettings.cpp" />
     <ClCompile Include="..\projcode\global\gameState.cpp" />
@@ -276,6 +279,7 @@
     <ClCompile Include="..\projcode\pages\startPage.cpp" />
     <ClCompile Include="..\projcode\pages\succedPage.cpp" />
     <ClCompile Include="..\projcode\pages\viewingTipPage.cpp" />
+    <ClCompile Include="..\projcode\touchSequence.cpp" />
     <ClCompile Include="mainWindow.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

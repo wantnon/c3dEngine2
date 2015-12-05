@@ -18,7 +18,7 @@ using namespace std;
 //
 #include "initGame.h"
 
-
+#include "gestureAnalyzer.h"
 LRESULT	CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);	// Declaration For WndProc
 
 GLvoid KillGLWindow(GLvoid)								// Properly Kill The Window
@@ -222,11 +222,24 @@ LRESULT CALLBACK WndProc(	HWND	hWnd,			// Handle For This Window
 		case WM_LBUTTONDOWN:
 		{
 			lbuttonDown( hWnd, uMsg, wParam, lParam);
+			
+			 float x=LOWORD(lParam);
+			 float y=HIWORD(lParam);
+
+			Ctouch touch=Ctouch(x,y,e_touchBegan,Cc3dFrameCounter::sharedFrameCounter()->getCount());
+			CtouchSequence::sharedTouchSequence()->addTouch(touch);
+
 			return 0;
 		}
 		case WM_LBUTTONUP:
 		{
 			lbuttonUp( hWnd, uMsg, wParam, lParam);
+
+			 float x=LOWORD(lParam);
+			 float y=HIWORD(lParam);
+
+			 Ctouch touch=Ctouch(x,y,e_touchEnd,Cc3dFrameCounter::sharedFrameCounter()->getCount());
+			 CtouchSequence::sharedTouchSequence()->addTouch(touch);
 
 			return 0;
 		}
@@ -234,12 +247,25 @@ LRESULT CALLBACK WndProc(	HWND	hWnd,			// Handle For This Window
 		{
 			mouseMove( hWnd, uMsg, wParam, lParam);
 
+			float x=LOWORD(lParam);
+	        float y=HIWORD(lParam);
+	
+			 Ctouch touch=Ctouch(x,y,e_touchMove,Cc3dFrameCounter::sharedFrameCounter()->getCount());
+			 CtouchSequence::sharedTouchSequence()->addTouch(touch);
+		
 			return 0;
 		}
 
 		case  WM_MOUSELEAVE://not WM_NCMOUSELEAVE
 		{
 			mouseLeave( hWnd, uMsg, wParam, lParam);
+
+			 float x=LOWORD(lParam);
+			 float y=HIWORD(lParam);
+
+			 Ctouch touch=Ctouch(x,y,e_touchEnd,Cc3dFrameCounter::sharedFrameCounter()->getCount());
+			 CtouchSequence::sharedTouchSequence()->addTouch(touch);
+
 			return 0;
 		}
 		case WM_SIZE:								// Resize The OpenGL Window

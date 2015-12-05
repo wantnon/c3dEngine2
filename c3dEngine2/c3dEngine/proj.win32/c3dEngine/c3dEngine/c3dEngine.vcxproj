@@ -31,7 +31,6 @@
     <ClInclude Include="..\..\..\c3dEngine\core\c3dFbo.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dFileUtils.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dGeoMath.h" />
-    <ClInclude Include="..\..\..\c3dEngine\core\c3dGestureAnalyzer.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dGLdebug.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dGLMath.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dGlobalTimer.h" />
@@ -60,7 +59,6 @@
     <ClInclude Include="..\..\..\c3dEngine\core\c3dSubMesh.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dTexture.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dTextureCache.h" />
-    <ClInclude Include="..\..\..\c3dEngine\core\c3dTouchSequence.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dTransform.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dVector.h" />
     <ClInclude Include="..\..\..\c3dEngine\core\c3dVertex.h" />
@@ -96,9 +94,6 @@
     <ClInclude Include="..\..\..\c3dEngine\shader\c3dPassUnifoCallBack.h" />
     <ClInclude Include="..\..\..\c3dEngine\shader\c3dProgramSetUp.h" />
     <ClInclude Include="..\..\..\c3dExtension\c3dExtension.h" />
-    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\c3dSkinActor.h" />
-    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxLoader.h" />
-    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxOneLoad.h" />
     <ClInclude Include="..\..\..\extension\extension.h" />
     <ClInclude Include="..\..\..\extension\geometry\geoMath.h" />
     <ClInclude Include="..\..\..\extension\octree\octree.h" />
@@ -125,7 +120,6 @@
     <ClCompile Include="..\..\..\c3dEngine\core\c3dFbo.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dFileUtils.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dGeoMath.cpp" />
-    <ClCompile Include="..\..\..\c3dEngine\core\c3dGestureAnalyzer.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dGLdebug.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dGLMath.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dGlobalTimer.cpp" />
@@ -154,7 +148,6 @@
     <ClCompile Include="..\..\..\c3dEngine\core\c3dSubMesh.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dTexture.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dTextureCache.cpp" />
-    <ClCompile Include="..\..\..\c3dEngine\core\c3dTouchSequence.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dTransform.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dVector.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\core\c3dVertex.cpp" />
@@ -170,9 +163,6 @@
     <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dTexturePlatformDepend.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\shader\c3dPassUnifoCallBack.cpp" />
     <ClCompile Include="..\..\..\c3dEngine\shader\c3dProgramSetUp.cpp" />
-    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\c3dSkinActor.cpp" />
-    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxLoader.cpp" />
-    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxOneLoad.cpp" />
     <ClCompile Include="..\..\..\extension\geometry\geoMath.cpp" />
     <ClCompile Include="..\..\..\extension\octree\octree.cpp" />
     <ClCompile Include="..\..\..\extension\octree\triangleWithNorm.cpp" />
@@ -281,14 +271,10 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\c3dEngine\platform\win32\libraries\*.*" "$(Ou
   
 if not exist "$(OutDir)" mkdir "$(OutDir)"
 xcopy /Y /Q "$(ProjectDir)..\..\..\thirdPart\bullet\bullet-2.82-r2704\lib_win32\debug\*.*" "$(OutDir)"
-  
-if not exist "$(OutDir)" mkdir "$(OutDir)"
-xcopy /Y /Q "$(ProjectDir)..\..\..\thirdPart\FBX\FBX_win32\FbxSdk\2015.1\lib\vs2010\x86\debug\*.*" "$(OutDir)"
-
-</Command>
+ </Command>
     </PreLinkEvent>
     <Lib>
-      <AdditionalDependencies>BulletCollision_vs2010.lib;BulletDynamics_vs2010.lib;LinearMath_vs2010.lib;libfbxsdk-mt.lib;wininet.lib;opengl32.lib;glu32.lib;glew32.lib;odbc32.lib;odbccp32.lib;openal32.lib;alut.lib;libzlib.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>BulletCollision_vs2010.lib;BulletDynamics_vs2010.lib;LinearMath_vs2010.lib;wininet.lib;opengl32.lib;glu32.lib;glew32.lib;odbc32.lib;odbccp32.lib;openal32.lib;alut.lib;libzlib.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\c3dEngine\platform\win32\libraries;$(ProjectDir)..\..\..\thirdPart\bullet\bullet-2.82-r2704\lib_win32\release;$(ProjectDir)..\..\..\thirdPart\FBX\FBX_win32\FbxSdk\2015.1\lib\vs2010\x86\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>

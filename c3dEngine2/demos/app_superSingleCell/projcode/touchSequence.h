@@ -11,7 +11,7 @@
 
 #include <iostream>
 using namespace std;
-#include "c3dVector.h"
+#include "c3d.h"
 enum eTouchType{
     e_touchBegan=0,
     e_touchMove,
