@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Cc3dNode::visit():c3dNode.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "nchild">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Cmesh::~Cmesh():mesh.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "retainCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CsuccedPage::update():succedPage.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "levelCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "defaultPassUnifoCallback(Cc3dNode*, Cc3dProgram*):mesh.mm">
+      </ContextState>
+      <ContextState
+         contextName = "Cmesh::init():mesh.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "program">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

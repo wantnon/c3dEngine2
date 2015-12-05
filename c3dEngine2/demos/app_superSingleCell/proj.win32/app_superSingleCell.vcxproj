@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectName>app_superSingleCell</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG =1;_WINDOWS;DEBUG = 0;C3D_PLATFORM_IOS = 0;C3D_PLATFORM_WIN32 = 1;C3D_TARGET_PLATFORM = 1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\app_superSingleCell.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\c3dEngine\c3dEngine;$(ProjectDir)..\..\..\c3dEngine\c3dExtension;$(ProjectDir)..\..\..\c3dEngine\extension;$(ProjectDir)..\..\..\c3dEngine\thirdPart\FBX\FBX_win32\FbxSdk\2014.2.1\include;$(ProjectDir)..\..\..\c3dEngine\thirdPart\bullet\bullet-2.82-r2704\src;$(ProjectDir)..\projcode;$(ProjectDir);$(ProjectDir)..\projcode\funcs;$(ProjectDir)..\projcode\gameObjs;$(ProjectDir)..\projcode\global;$(ProjectDir)..\projcode\pages;$(ProjectDir)..\projcode\otherObjs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\app_superSingleCell.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x1009</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\app_superSingleCell.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalDependencies>c3dEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG=1;C3D_PLATFORM_IOS = 0;C3D_PLATFORM_WIN32 = 1;C3D_TARGET_PLATFORM = 1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\app_superSingleCell.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\c3dEngine\c3dEngine;$(ProjectDir)..\..\..\c3dEngine\c3dExtension;$(ProjectDir)..\..\..\c3dEngine\extension;$(ProjectDir)..\..\..\c3dEngine\thirdPart\FBX\FBX_win32\FbxSdk\2014.2.1\include;$(ProjectDir)..\..\..\c3dEngine\thirdPart\bullet\bullet-2.82-r2704\src;$(ProjectDir)..\projcode;$(ProjectDir);$(ProjectDir)..\projcode\funcs;$(ProjectDir)..\projcode\gameObjs;$(ProjectDir)..\projcode\global;$(ProjectDir)..\projcode\pages;$(ProjectDir)..\projcode\otherObjs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\app_superSingleCell.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x1009</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\app_superSingleCell.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalDependencies>c3dEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ShowProgress>
+      </ShowProgress>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\projcode\funcs\changeNodeComponents.h" />
+    <ClInclude Include="..\projcode\funcs\collisionWithModelAtTriLevel.h" />
+    <ClInclude Include="..\projcode\funcs\loadInfo.h" />
+    <ClInclude Include="..\projcode\funcs\makeTemplate.h" />
+    <ClInclude Include="..\projcode\funcs\myFunc.h" />
+    <ClInclude Include="..\projcode\funcs\passUnifoCallBack.h" />
+    <ClInclude Include="..\projcode\funcs\programSetUp.h" />
+    <ClInclude Include="..\projcode\gameObjs\actorSet.h" />
+    <ClInclude Include="..\projcode\gameObjs\archScene.h" />
+    <ClInclude Include="..\projcode\gameObjs\backGroundMusicCube.h" />
+    <ClInclude Include="..\projcode\gameObjs\blast.h" />
+    <ClInclude Include="..\projcode\gameObjs\bossCell.h" />
+    <ClInclude Include="..\projcode\gameObjs\bubble.h" />
+    <ClInclude Include="..\projcode\gameObjs\cell.h" />
+    <ClInclude Include="..\projcode\gameObjs\fakeLight.h" />
+    <ClInclude Include="..\projcode\gameObjs\ground.h" />
+    <ClInclude Include="..\projcode\gameObjs\key.h" />
+    <ClInclude Include="..\projcode\gameObjs\meteor.h" />
+    <ClInclude Include="..\projcode\gameObjs\mobilePlatform.h" />
+    <ClInclude Include="..\projcode\gameObjs\molecule.h" />
+    <ClInclude Include="..\projcode\gameObjs\progressBar.h" />
+    <ClInclude Include="..\projcode\gameObjs\seabed.h" />
+    <ClInclude Include="..\projcode\gameObjs\ship.h" />
+    <ClInclude Include="..\projcode\gameObjs\shotBall.h" />
+    <ClInclude Include="..\projcode\gameObjs\sky.h" />
+    <ClInclude Include="..\projcode\gameObjs\sprite.h" />
+    <ClInclude Include="..\projcode\gameObjs\water.h" />
+    <ClInclude Include="..\projcode\global\define.h" />
+    <ClInclude Include="..\projcode\global\gameSettings.h" />
+    <ClInclude Include="..\projcode\global\gameState.h" />
+    <ClInclude Include="..\projcode\global\globalVars.h" />
+    <ClInclude Include="..\projcode\initGame.h" />
+    <ClInclude Include="..\projcode\otherObjs\checkPoint.h" />
+    <ClInclude Include="..\projcode\otherObjs\collisonGrid.h" />
+    <ClInclude Include="..\projcode\otherObjs\environmentInfo.h" />
+    <ClInclude Include="..\projcode\otherObjs\life.h" />
+    <ClInclude Include="..\projcode\otherObjs\shadowMapInfo.h" />
+    <ClInclude Include="..\projcode\otherObjs\timeCounter.h" />
+    <ClInclude Include="..\projcode\otherObjs\userConfig.h" />
+    <ClInclude Include="..\projcode\pages\aboutPage.h" />
+    <ClInclude Include="..\projcode\pages\descPage.h" />
+    <ClInclude Include="..\projcode\pages\descPage2.h" />
+    <ClInclude Include="..\projcode\pages\descPage3.h" />
+    <ClInclude Include="..\projcode\pages\endPage.h" />
+    <ClInclude Include="..\projcode\pages\gameOverPage.h" />
+    <ClInclude Include="..\projcode\pages\homePage.h" />
+    <ClInclude Include="..\projcode\pages\loadingPage.h" />
+    <ClInclude Include="..\projcode\pages\menuPage.h" />
+    <ClInclude Include="..\projcode\pages\pausePage.h" />
+    <ClInclude Include="..\projcode\pages\playingPage.h" />
+    <ClInclude Include="..\projcode\pages\playingPageLogic.h" />
+    <ClInclude Include="..\projcode\pages\settingPage.h" />
+    <ClInclude Include="..\projcode\pages\startPage.h" />
+    <ClInclude Include="..\projcode\pages\succedPage.h" />
+    <ClInclude Include="..\projcode\pages\viewingTipPage.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\projcode\funcs\changeNodeComponents.cpp" />
+    <ClCompile Include="..\projcode\funcs\collisionWithModelAtTriLevel.cpp" />
+    <ClCompile Include="..\projcode\funcs\loadInfo.cpp" />
+    <ClCompile Include="..\projcode\funcs\makeTemplate.cpp" />
+    <ClCompile Include="..\projcode\funcs\myFunc.cpp" />
+    <ClCompile Include="..\projcode\funcs\passUnifoCallBack.cpp" />
+    <ClCompile Include="..\projcode\funcs\programSetUp.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\actorSet.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\archScene.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\backGroundMusicCube.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\blast.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\bossCell.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\bubble.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\cell.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\fakeLight.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\ground.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\key.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\meteor.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\mobilePlatform.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\molecule.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\progressBar.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\seabed.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\ship.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\shotBall.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\sky.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\sprite.cpp" />
+    <ClCompile Include="..\projcode\gameObjs\water.cpp" />
+    <ClCompile Include="..\projcode\global\define.cpp" />
+    <ClCompile Include="..\projcode\global\gameSettings.cpp" />
+    <ClCompile Include="..\projcode\global\gameState.cpp" />
+    <ClCompile Include="..\projcode\global\globalVars.cpp" />
+    <ClCompile Include="..\projcode\initGame.cpp" />
+    <ClCompile Include="..\projcode\otherObjs\checkPoint.cpp" />
+    <ClCompile Include="..\projcode\otherObjs\collisonGrid.cpp" />
+    <ClCompile Include="..\projcode\otherObjs\environmentInfo.cpp" />
+    <ClCompile Include="..\projcode\otherObjs\life.cpp" />
+    <ClCompile Include="..\projcode\otherObjs\shadowMapInfo.cpp" />
+    <ClCompile Include="..\projcode\otherObjs\timeCounter.cpp" />
+    <ClCompile Include="..\projcode\otherObjs\userConfig.cpp" />
+    <ClCompile Include="..\projcode\pages\aboutPage.cpp" />
+    <ClCompile Include="..\projcode\pages\descPage.cpp" />
+    <ClCompile Include="..\projcode\pages\descPage2.cpp" />
+    <ClCompile Include="..\projcode\pages\descPage3.cpp" />
+    <ClCompile Include="..\projcode\pages\endPage.cpp" />
+    <ClCompile Include="..\projcode\pages\gameOverPage.cpp" />
+    <ClCompile Include="..\projcode\pages\homePage.cpp" />
+    <ClCompile Include="..\projcode\pages\loadingPage.cpp" />
+    <ClCompile Include="..\projcode\pages\menuPage.cpp" />
+    <ClCompile Include="..\projcode\pages\pausePage.cpp" />
+    <ClCompile Include="..\projcode\pages\playingPage.cpp" />
+    <ClCompile Include="..\projcode\pages\playingPageLogic.cpp" />
+    <ClCompile Include="..\projcode\pages\settingPage.cpp" />
+    <ClCompile Include="..\projcode\pages\startPage.cpp" />
+    <ClCompile Include="..\projcode\pages\succedPage.cpp" />
+    <ClCompile Include="..\projcode\pages\viewingTipPage.cpp" />
+    <ClCompile Include="mainWindow.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

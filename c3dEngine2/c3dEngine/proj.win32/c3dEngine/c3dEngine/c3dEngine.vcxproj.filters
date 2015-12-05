@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="c3dEngine">
+      <UniqueIdentifier>{81628e73-393d-4c23-8909-8591a30320d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\common">
+      <UniqueIdentifier>{4a0ce23d-84e5-41da-ae1c-181d0ad09afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\core">
+      <UniqueIdentifier>{570bd932-b133-47a1-94ed-3a8ca7d1f3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\platform">
+      <UniqueIdentifier>{14b59392-3334-4cf5-861f-c01c56ba8eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\platform\win32">
+      <UniqueIdentifier>{c59dba7c-5d39-4a06-851e-101c12c7f0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\platform\win32\AL">
+      <UniqueIdentifier>{2e9db2fc-3dc4-495c-9056-21d5c91c5a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\platform\win32\appFrame">
+      <UniqueIdentifier>{502febcb-e70e-4bfc-b5b6-85286467baff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\platform\win32\libpng">
+      <UniqueIdentifier>{207f82a2-71ac-4c86-b34c-0d0897b96f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\platform\win32\OGLES">
+      <UniqueIdentifier>{42ea64fd-54e2-4976-a1af-d4d90c3b80a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\platform\win32\OGLES\GL">
+      <UniqueIdentifier>{6f5fe045-8059-44a0-a938-e3cb711a2d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\platform\win32\zlib">
+      <UniqueIdentifier>{5851a32f-d159-4b85-ad00-a814cdb30d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dEngine\shader">
+      <UniqueIdentifier>{2cccc3ec-4093-414b-8787-cffbea50dc29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dExtension">
+      <UniqueIdentifier>{35797e69-a82d-4787-8a9b-6d7071d29f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extension">
+      <UniqueIdentifier>{5e37728e-6b49-4d5d-9c51-570c58ce7a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extension\geometry">
+      <UniqueIdentifier>{15fe5998-ba64-4d0d-915f-f85b9d64c524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extension\octree">
+      <UniqueIdentifier>{b2838f3c-0aa4-4dee-a7b9-0280d06f2bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extension\terrain">
+      <UniqueIdentifier>{01c1ba39-1518-4a36-aabc-040d29c59740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extension\ui">
+      <UniqueIdentifier>{4a095ae8-4b4f-4f8b-9bdc-465964e5d0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dExtension\fbxLoader">
+      <UniqueIdentifier>{60a20b94-31eb-45d7-b535-f648331ca297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c3dExtension\fbxLoader\win32">
+      <UniqueIdentifier>{8ca6aaf3-b4ad-4b88-a5f1-2fd9a27d9a24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\c3dEngine\common\c3dAL.h">
+      <Filter>c3dEngine\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\common\c3dCommonFunc.h">
+      <Filter>c3dEngine\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\common\c3dGL.h">
+      <Filter>c3dEngine\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\common\c3dPathFunc.h">
+      <Filter>c3dEngine\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dActor.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dALBuffer.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dALdebug.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dALSource.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dAppState.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dAssert.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dAudioCache.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dAutoreleasePool.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dCamera.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dDefine.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dDeviceAndOSInfo.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dDocuments.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dFbo.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dFileUtils.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dGeoMath.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dGestureAnalyzer.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dGLdebug.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dGLMath.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dGlobalTimer.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dIDline.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dIDtriangle.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dIndexVBO.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dInitGame.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dLight.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dLog.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dMaterial.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dMath.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dMatrix.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dMesh.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dMeshData.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dModel.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dModelMatStack.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dNode.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dObject.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dPlane.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dProgram.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dProgramCache.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dRange.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dRect.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dSceneManger.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dSpan.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dSubMesh.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dTexture.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dTextureCache.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dTouchSequence.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dTransform.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dVector.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\core\c3dVertex.h">
+      <Filter>c3dEngine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\shader\c3dPassUnifoCallBack.h">
+      <Filter>c3dEngine\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\shader\c3dProgramSetUp.h">
+      <Filter>c3dEngine\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\AL\al.h">
+      <Filter>c3dEngine\platform\win32\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\AL\alc.h">
+      <Filter>c3dEngine\platform\win32\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\AL\alut.h">
+      <Filter>c3dEngine\platform\win32\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\AL\efx-creative.h">
+      <Filter>c3dEngine\platform\win32\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\AL\EFX-Util.h">
+      <Filter>c3dEngine\platform\win32\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\AL\efx.h">
+      <Filter>c3dEngine\platform\win32\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\AL\xram.h">
+      <Filter>c3dEngine\platform\win32\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\appFrame\mainWindowFuncs.h">
+      <Filter>c3dEngine\platform\win32\appFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\appFrame\mainWindowGlobal.h">
+      <Filter>c3dEngine\platform\win32\appFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\libpng\png.h">
+      <Filter>c3dEngine\platform\win32\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\libpng\pngconf.h">
+      <Filter>c3dEngine\platform\win32\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\GLAUX.H">
+      <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\glew.h">
+      <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\glext.h">
+      <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\glut.h">
+      <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\glxew.h">
+      <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\wglew.h">
+      <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\zlib\zconf.h">
+      <Filter>c3dEngine\platform\win32\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\zlib\zlib.h">
+      <Filter>c3dEngine\platform\win32\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\c3dALPlatformDepend.h">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\c3dDeviceAndOSInfoPlatformDepend.h">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\c3dDocumentsPlatformDepend.h">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\c3dGLPlatformDepend.h">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\c3dImage.h">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\c3dPathPlatformDepend.h">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\c3dProgramPlatformDepend.h">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\c3dTexturePlatformDepend.h">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\c3d.h">
+      <Filter>c3dEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\c3dSkinActor.h">
+      <Filter>c3dExtension\fbxLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dExtension\c3dExtension.h">
+      <Filter>c3dExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extension\geometry\geoMath.h">
+      <Filter>extension\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extension\octree\octree.h">
+      <Filter>extension\octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extension\octree\triangleWithNorm.h">
+      <Filter>extension\octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extension\terrain\terrain.h">
+      <Filter>extension\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extension\ui\board.h">
+      <Filter>extension\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extension\ui\button.h">
+      <Filter>extension\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extension\extension.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxLoader.h">
+      <Filter>c3dExtension\fbxLoader\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxOneLoad.h">
+      <Filter>c3dExtension\fbxLoader\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\GL.h">
+      <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\GLU.h">
+      <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\c3dEngine\common\c3dCommonFunc.cpp">
+      <Filter>c3dEngine\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\common\c3dPathFunc.cpp">
+      <Filter>c3dEngine\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dActor.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dALBuffer.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dALdebug.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dALSource.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dAppState.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dAssert.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dAudioCache.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dAutoreleasePool.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dCamera.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dDefine.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dDeviceAndOSInfo.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dDocuments.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dFbo.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dFileUtils.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dGeoMath.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dGestureAnalyzer.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dGLdebug.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dGLMath.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dGlobalTimer.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dIDline.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dIDtriangle.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dIndexVBO.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dInitGame.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dLight.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dLog.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dMaterial.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dMath.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dMatrix.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dMesh.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dMeshData.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dModel.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dModelMatStack.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dNode.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dObject.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dPlane.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dProgram.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dProgramCache.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dRange.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dRect.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dSceneManger.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dSpan.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dSubMesh.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dTexture.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dTextureCache.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dTouchSequence.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dTransform.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dVector.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\core\c3dVertex.cpp">
+      <Filter>c3dEngine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\shader\c3dPassUnifoCallBack.cpp">
+      <Filter>c3dEngine\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\shader\c3dProgramSetUp.cpp">
+      <Filter>c3dEngine\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\appFrame\mainWindowFuncs.cpp">
+      <Filter>c3dEngine\platform\win32\appFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\appFrame\mainWindowGlobal.cpp">
+      <Filter>c3dEngine\platform\win32\appFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dALPlatformDepend.cpp">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dDeviceAndOSInfoPlatformDepend.cpp">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dDocumentsPlatformDepend.cpp">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dGLPlatformDepend.cpp">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dImage.cpp">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dPathPlatformDepend.cpp">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dProgramPlatformDepend.cpp">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dEngine\platform\win32\c3dTexturePlatformDepend.cpp">
+      <Filter>c3dEngine\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\c3dSkinActor.cpp">
+      <Filter>c3dExtension\fbxLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extension\geometry\geoMath.cpp">
+      <Filter>extension\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extension\octree\octree.cpp">
+      <Filter>extension\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extension\octree\triangleWithNorm.cpp">
+      <Filter>extension\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extension\terrain\terrain.cpp">
+      <Filter>extension\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extension\ui\board.cpp">
+      <Filter>extension\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extension\ui\button.cpp">
+      <Filter>extension\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxLoader.cpp">
+      <Filter>c3dExtension\fbxLoader\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\win32\c3dFbxOneLoad.cpp">
+      <Filter>c3dExtension\fbxLoader\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

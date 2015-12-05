@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041E52FE3F6B14FB27AE3EDC /* btSoftBodyHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE335DD682571C9458E77DD /* btSoftBodyHelpers.cpp */; };
+		0DDA7AC604F64D916DFB0A66 /* btSoftRigidDynamicsWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F026B5A6E2B57E942482E3E /* btSoftRigidDynamicsWorld.cpp */; };
+		13765CAE4C4E49D902613FE0 /* btSoftBodyRigidBodyCollisionConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE355E594149AA6AD02BCC /* btSoftBodyRigidBodyCollisionConfiguration.cpp */; };
+		15344A2618DD75BC448F40DE /* btSoftBodyConcaveCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E872CE71156450C2EF82779 /* btSoftBodyConcaveCollisionAlgorithm.cpp */; };
+		195B526A63E7014B22EE50F5 /* btDefaultSoftBodySolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07462E9B6360700D194876A6 /* btDefaultSoftBodySolver.cpp */; };
+		506457CD60B07FB20D2A732A /* btSoftSoftCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 562F58DA579E0228466A0B17 /* btSoftSoftCollisionAlgorithm.cpp */; };
+		662B46E45B640E1C7EB32747 /* btSoftBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A1243C62883491400F03E0F /* btSoftBody.cpp */; };
+		78EF319401D37EF0516A143B /* btSoftRigidCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1564112E119E54952D60003A /* btSoftRigidCollisionAlgorithm.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		045313C71DF94A8660AB7E57 /* btSoftSoftCollisionAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftSoftCollisionAlgorithm.h; path = ../../src/BulletSoftBody/btSoftSoftCollisionAlgorithm.h; sourceTree = "<group>"; };
+		07462E9B6360700D194876A6 /* btDefaultSoftBodySolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btDefaultSoftBodySolver.cpp; path = ../../src/BulletSoftBody/btDefaultSoftBodySolver.cpp; sourceTree = "<group>"; };
+		0EDC44660E023FA3147E6F6D /* btDefaultSoftBodySolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btDefaultSoftBodySolver.h; path = ../../src/BulletSoftBody/btDefaultSoftBodySolver.h; sourceTree = "<group>"; };
+		1564112E119E54952D60003A /* btSoftRigidCollisionAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftRigidCollisionAlgorithm.cpp; path = ../../src/BulletSoftBody/btSoftRigidCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		1F026B5A6E2B57E942482E3E /* btSoftRigidDynamicsWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftRigidDynamicsWorld.cpp; path = ../../src/BulletSoftBody/btSoftRigidDynamicsWorld.cpp; sourceTree = "<group>"; };
+		252D6EBB396461574CB30D5F /* btSoftBodyRigidBodyCollisionConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyRigidBodyCollisionConfiguration.h; path = ../../src/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h; sourceTree = "<group>"; };
+		2A4938F0508006367E1470FB /* btSparseSDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSparseSDF.h; path = ../../src/BulletSoftBody/btSparseSDF.h; sourceTree = "<group>"; };
+		36EA3E001814572965062875 /* btSoftRigidCollisionAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftRigidCollisionAlgorithm.h; path = ../../src/BulletSoftBody/btSoftRigidCollisionAlgorithm.h; sourceTree = "<group>"; };
+		391653FB1F977A143EA163BD /* btSoftBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBody.h; path = ../../src/BulletSoftBody/btSoftBody.h; sourceTree = "<group>"; };
+		3ACE355E594149AA6AD02BCC /* btSoftBodyRigidBodyCollisionConfiguration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBodyRigidBodyCollisionConfiguration.cpp; path = ../../src/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.cpp; sourceTree = "<group>"; };
+		3BE335DD682571C9458E77DD /* btSoftBodyHelpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBodyHelpers.cpp; path = ../../src/BulletSoftBody/btSoftBodyHelpers.cpp; sourceTree = "<group>"; };
+		3E872CE71156450C2EF82779 /* btSoftBodyConcaveCollisionAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBodyConcaveCollisionAlgorithm.cpp; path = ../../src/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		43281958641B319D686639D0 /* btSoftBodySolvers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodySolvers.h; path = ../../src/BulletSoftBody/btSoftBodySolvers.h; sourceTree = "<group>"; };
+		43316D4B69583AE6037B3E07 /* btSoftRigidDynamicsWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftRigidDynamicsWorld.h; path = ../../src/BulletSoftBody/btSoftRigidDynamicsWorld.h; sourceTree = "<group>"; };
+		4CB252820AA35380211C4A2D /* btSoftBodyConcaveCollisionAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyConcaveCollisionAlgorithm.h; path = ../../src/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.h; sourceTree = "<group>"; };
+		562F58DA579E0228466A0B17 /* btSoftSoftCollisionAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftSoftCollisionAlgorithm.cpp; path = ../../src/BulletSoftBody/btSoftSoftCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		56F873EC17102C1A0B8D5EB9 /* libBulletSoftBody_xcode4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBulletSoftBody_xcode4.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D83A743C3963B8040B7A60 /* btSoftBodyData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyData.h; path = ../../src/BulletSoftBody/btSoftBodyData.h; sourceTree = "<group>"; };
+		6A1243C62883491400F03E0F /* btSoftBody.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBody.cpp; path = ../../src/BulletSoftBody/btSoftBody.cpp; sourceTree = "<group>"; };
+		6CA9608C150D3129151D541F /* btSoftBodySolverVertexBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodySolverVertexBuffer.h; path = ../../src/BulletSoftBody/btSoftBodySolverVertexBuffer.h; sourceTree = "<group>"; };
+		777D4C2A62D271AE7E7F5C9C /* btSoftBodyInternals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyInternals.h; path = ../../src/BulletSoftBody/btSoftBodyInternals.h; sourceTree = "<group>"; };
+		7D4D770C5660739F6F926743 /* btSoftBodyHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyHelpers.h; path = ../../src/BulletSoftBody/btSoftBodyHelpers.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B595E182F2F6D590C0D373A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C52DFE0A29289A1B586392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F873EC17102C1A0B8D5EB9 /* libBulletSoftBody_xcode4.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		431E15AF20824E49321D3084 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5D660988544E681E347050B2 /* BulletSoftBody */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		5B810D6654703CFA5D6E01AB /* BulletSoftBody */ = {
+			isa = PBXGroup;
+			children = (
+				431E15AF20824E49321D3084 /* src */,
+				17C52DFE0A29289A1B586392 /* Products */,
+			);
+			name = BulletSoftBody;
+			sourceTree = "<group>";
+		};
+		5D660988544E681E347050B2 /* BulletSoftBody */ = {
+			isa = PBXGroup;
+			children = (
+				07462E9B6360700D194876A6 /* btDefaultSoftBodySolver.cpp */,
+				0EDC44660E023FA3147E6F6D /* btDefaultSoftBodySolver.h */,
+				6A1243C62883491400F03E0F /* btSoftBody.cpp */,
+				391653FB1F977A143EA163BD /* btSoftBody.h */,
+				3E872CE71156450C2EF82779 /* btSoftBodyConcaveCollisionAlgorithm.cpp */,
+				4CB252820AA35380211C4A2D /* btSoftBodyConcaveCollisionAlgorithm.h */,
+				63D83A743C3963B8040B7A60 /* btSoftBodyData.h */,
+				3BE335DD682571C9458E77DD /* btSoftBodyHelpers.cpp */,
+				7D4D770C5660739F6F926743 /* btSoftBodyHelpers.h */,
+				777D4C2A62D271AE7E7F5C9C /* btSoftBodyInternals.h */,
+				3ACE355E594149AA6AD02BCC /* btSoftBodyRigidBodyCollisionConfiguration.cpp */,
+				252D6EBB396461574CB30D5F /* btSoftBodyRigidBodyCollisionConfiguration.h */,
+				6CA9608C150D3129151D541F /* btSoftBodySolverVertexBuffer.h */,
+				43281958641B319D686639D0 /* btSoftBodySolvers.h */,
+				1564112E119E54952D60003A /* btSoftRigidCollisionAlgorithm.cpp */,
+				36EA3E001814572965062875 /* btSoftRigidCollisionAlgorithm.h */,
+				1F026B5A6E2B57E942482E3E /* btSoftRigidDynamicsWorld.cpp */,
+				43316D4B69583AE6037B3E07 /* btSoftRigidDynamicsWorld.h */,
+				562F58DA579E0228466A0B17 /* btSoftSoftCollisionAlgorithm.cpp */,
+				045313C71DF94A8660AB7E57 /* btSoftSoftCollisionAlgorithm.h */,
+				2A4938F0508006367E1470FB /* btSparseSDF.h */,
+			);
+			name = BulletSoftBody;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2B056C13052DC924624301 /* BulletSoftBody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5F5EFB70FA53C967BB37BB /* Build configuration list for PBXNativeTarget "BulletSoftBody" */;
+			buildPhases = (
+				78BE03EB467B4102790F6534 /* Resources */,
+				4B981ABD241D122D6E863DE9 /* Sources */,
+				3B595E182F2F6D590C0D373A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulletSoftBody;
+			productName = BulletSoftBody;
+			productReference = 56F873EC17102C1A0B8D5EB9 /* libBulletSoftBody_xcode4.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "BulletSoftBody" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B810D6654703CFA5D6E01AB /* BulletSoftBody */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2B056C13052DC924624301 /* BulletSoftBody */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78BE03EB467B4102790F6534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B981ABD241D122D6E863DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195B526A63E7014B22EE50F5 /* btDefaultSoftBodySolver.cpp in Sources */,
+				662B46E45B640E1C7EB32747 /* btSoftBody.cpp in Sources */,
+				15344A2618DD75BC448F40DE /* btSoftBodyConcaveCollisionAlgorithm.cpp in Sources */,
+				041E52FE3F6B14FB27AE3EDC /* btSoftBodyHelpers.cpp in Sources */,
+				13765CAE4C4E49D902613FE0 /* btSoftBodyRigidBodyCollisionConfiguration.cpp in Sources */,
+				78EF319401D37EF0516A143B /* btSoftRigidCollisionAlgorithm.cpp in Sources */,
+				0DDA7AC604F64D916DFB0A66 /* btSoftRigidDynamicsWorld.cpp in Sources */,
+				506457CD60B07FB20D2A732A /* btSoftSoftCollisionAlgorithm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		027631D1384541C921E23A18 /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../src;
+				INFOPLIST_FILE = ../../Test/Info.plist;
+				OBJROOT = obj/x64/Release/BulletSoftBody;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-ffast-math";
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../lib;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = "Release Native 64-bit";
+		};
+		168B2F720C0F5762143264B7 /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = ../../lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = ../../Test/Info.plist;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = BulletSoftBody_xcode4_debug;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = "Debug Native 32-bit";
+		};
+		1E7E72384EAB6CAC3F4C30C1 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../src;
+				INFOPLIST_FILE = ../../Test/Info.plist;
+				OBJROOT = obj/x32/Release/BulletSoftBody;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-ffast-math";
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../lib;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = "Release Native 32-bit";
+		};
+		20660B856B8C4EE25AFA7535 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = ../../lib;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = ../../Test/Info.plist;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = BulletSoftBody_xcode4;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = "Release Native 32-bit";
+		};
+		406355AB5300487A627E7B50 /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../src;
+				INFOPLIST_FILE = ../../Test/Info.plist;
+				OBJROOT = obj/x32/Debug/BulletSoftBody;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-ffast-math";
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../lib;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = "Debug Native 32-bit";
+		};
+		50274C09227016CB11921581 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = ../../lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = ../../Test/Info.plist;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = BulletSoftBody_xcode4_x64_debug;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = "Debug Native 64-bit";
+		};
+		57A344C44ADB7A9978653971 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../src;
+				INFOPLIST_FILE = ../../Test/Info.plist;
+				OBJROOT = obj/x64/Debug/BulletSoftBody;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-ffast-math";
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../lib;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = "Debug Native 64-bit";
+		};
+		616B6308531334ED6CE33668 /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = ../../lib;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = ../../Test/Info.plist;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = BulletSoftBody_xcode4_x64_release;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = "Release Native 64-bit";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C5F5EFB70FA53C967BB37BB /* Build configuration list for PBXNativeTarget "BulletSoftBody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20660B856B8C4EE25AFA7535 /* Release Native 32-bit */,
+				616B6308531334ED6CE33668 /* Release Native 64-bit */,
+				168B2F720C0F5762143264B7 /* Debug Native 32-bit */,
+				50274C09227016CB11921581 /* Debug Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Native 32-bit";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "BulletSoftBody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7E72384EAB6CAC3F4C30C1 /* Release Native 32-bit */,
+				027631D1384541C921E23A18 /* Release Native 64-bit */,
+				406355AB5300487A627E7B50 /* Debug Native 32-bit */,
+				57A344C44ADB7A9978653971 /* Debug Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Native 32-bit";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

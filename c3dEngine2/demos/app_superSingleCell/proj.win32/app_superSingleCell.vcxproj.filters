@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0db6bd7c-e769-4a64-bbc8-2e286ca9fb74}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{95b1d1e5-279e-4207-a51d-1659fdf9cdec}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a7e0fa3b-9258-47f9-bcb2-773bf4a5e9e3}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="projcode">
+      <UniqueIdentifier>{64bb6f54-4bd6-4ae6-85a4-5dd6a9df061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="projcode\funcs">
+      <UniqueIdentifier>{917f5ce2-205e-4687-8f2e-3563bb7da8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="projcode\gameObjs">
+      <UniqueIdentifier>{5041d728-24aa-435f-bf2f-ff977029fdf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="projcode\global">
+      <UniqueIdentifier>{9c291044-2a32-4f1d-a260-fc1eb67be16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="projcode\otherObjs">
+      <UniqueIdentifier>{e027923f-92b2-4b49-8660-9bdaec5229b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="projcode\pages">
+      <UniqueIdentifier>{52d265f9-0625-44d1-be41-9bcfcd1494fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\initGame.h">
+      <Filter>projcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\funcs\changeNodeComponents.h">
+      <Filter>projcode\funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\funcs\collisionWithModelAtTriLevel.h">
+      <Filter>projcode\funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\funcs\loadInfo.h">
+      <Filter>projcode\funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\funcs\makeTemplate.h">
+      <Filter>projcode\funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\funcs\myFunc.h">
+      <Filter>projcode\funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\funcs\passUnifoCallBack.h">
+      <Filter>projcode\funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\funcs\programSetUp.h">
+      <Filter>projcode\funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\actorSet.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\archScene.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\backGroundMusicCube.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\blast.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\bossCell.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\bubble.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\cell.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\fakeLight.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\ground.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\key.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\meteor.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\mobilePlatform.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\molecule.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\progressBar.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\seabed.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\ship.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\shotBall.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\sky.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\sprite.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\gameObjs\water.h">
+      <Filter>projcode\gameObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\global\define.h">
+      <Filter>projcode\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\global\gameSettings.h">
+      <Filter>projcode\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\global\gameState.h">
+      <Filter>projcode\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\global\globalVars.h">
+      <Filter>projcode\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\otherObjs\checkPoint.h">
+      <Filter>projcode\otherObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\otherObjs\collisonGrid.h">
+      <Filter>projcode\otherObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\otherObjs\environmentInfo.h">
+      <Filter>projcode\otherObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\otherObjs\life.h">
+      <Filter>projcode\otherObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\otherObjs\shadowMapInfo.h">
+      <Filter>projcode\otherObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\otherObjs\timeCounter.h">
+      <Filter>projcode\otherObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\otherObjs\userConfig.h">
+      <Filter>projcode\otherObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\aboutPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\descPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\descPage2.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\descPage3.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\endPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\gameOverPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\homePage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\loadingPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\menuPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\pausePage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\playingPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\playingPageLogic.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\settingPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\startPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\succedPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projcode\pages\viewingTipPage.h">
+      <Filter>projcode\pages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\projcode\initGame.cpp">
+      <Filter>projcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\funcs\changeNodeComponents.cpp">
+      <Filter>projcode\funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\funcs\collisionWithModelAtTriLevel.cpp">
+      <Filter>projcode\funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\funcs\loadInfo.cpp">
+      <Filter>projcode\funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\funcs\makeTemplate.cpp">
+      <Filter>projcode\funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\funcs\myFunc.cpp">
+      <Filter>projcode\funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\funcs\passUnifoCallBack.cpp">
+      <Filter>projcode\funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\funcs\programSetUp.cpp">
+      <Filter>projcode\funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\actorSet.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\archScene.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\backGroundMusicCube.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\blast.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\bossCell.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\bubble.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\cell.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\fakeLight.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\ground.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\key.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\meteor.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\mobilePlatform.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\molecule.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\progressBar.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\seabed.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\ship.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\shotBall.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\sky.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\sprite.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\gameObjs\water.cpp">
+      <Filter>projcode\gameObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\global\define.cpp">
+      <Filter>projcode\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\global\gameSettings.cpp">
+      <Filter>projcode\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\global\gameState.cpp">
+      <Filter>projcode\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\global\globalVars.cpp">
+      <Filter>projcode\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\otherObjs\checkPoint.cpp">
+      <Filter>projcode\otherObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\otherObjs\collisonGrid.cpp">
+      <Filter>projcode\otherObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\otherObjs\environmentInfo.cpp">
+      <Filter>projcode\otherObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\otherObjs\life.cpp">
+      <Filter>projcode\otherObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\otherObjs\shadowMapInfo.cpp">
+      <Filter>projcode\otherObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\otherObjs\timeCounter.cpp">
+      <Filter>projcode\otherObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\otherObjs\userConfig.cpp">
+      <Filter>projcode\otherObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\aboutPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\descPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\descPage2.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\descPage3.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\endPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\gameOverPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\homePage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\loadingPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\menuPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\pausePage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\playingPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\playingPageLogic.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\settingPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\startPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\succedPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projcode\pages\viewingTipPage.cpp">
+      <Filter>projcode\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="mainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

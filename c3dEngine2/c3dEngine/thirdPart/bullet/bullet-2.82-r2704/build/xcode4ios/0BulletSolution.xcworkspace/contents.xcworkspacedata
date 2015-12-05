@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+	version = "1.0">
+	<FileRef
+		location = "group:HACD.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:ConvexDecomposition.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:BulletFileLoader.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:BulletWorldImporter.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:BulletXmlWorldImporter.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:LinearMath.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:BulletCollision.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:BulletDynamics.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:BulletSoftBody.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:AppUnitTest.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:AppHelloWorld.xcodeproj">
+	</FileRef>
+	<FileRef
+		location = "group:AppBenchmarks.xcodeproj">
+	</FileRef>
+</Workspace>

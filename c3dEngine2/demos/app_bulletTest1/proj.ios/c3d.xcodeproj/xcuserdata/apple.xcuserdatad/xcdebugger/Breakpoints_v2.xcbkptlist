@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "c3dToolKit/c3dGLMath.cpp"
+            timestampString = "412863864.127504"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "calculateViewMatrixInverse(const Cc3dVector4&amp;_eyePos,const Cc3dVector4&amp;_center,const Cc3dVector4&amp;_up)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculateViewMatrixInverse(Cc3dVector4 const&amp;, Cc3dVector4 const&amp;, Cc3dVector4 const&amp;)"
+                  moduleName = "super germ"
+                  urlString = "file://localhost/Users/apple/Documents/projects/%E9%87%8D%E7%BB%843D%20IV%20for%20ios%203.0/super%20single%20cell%E5%89%AF%E6%9C%AC%2067/c3dToolKit/c3dGLMath.cpp"
+                  timestampString = "412863971.120347"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "553">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculateViewMatrixInverse(Cc3dVector4 const&amp;, Cc3dVector4 const&amp;, Cc3dVector4 const&amp;)"
+                  moduleName = "super germ"
+                  urlString = "file://localhost/Users/apple/Documents/projects/%E9%87%8D%E7%BB%843D%20IV%20for%20ios%203.0/super%20single%20cell%E5%89%AF%E6%9C%AC%2067/c3dToolKit/c3dGLMath.cpp"
+                  timestampString = "412863971.120676"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "566">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculateViewMatrixInverse(Cc3dVector4 const&amp;, Cc3dVector4 const&amp;, Cc3dVector4 const&amp;)"
+                  moduleName = "super germ"
+                  urlString = "file://localhost/Users/apple/Documents/projects/%E9%87%8D%E7%BB%843D%20IV%20for%20ios%203.0/super%20single%20cell%E5%89%AF%E6%9C%AC%2067/c3dToolKit/c3dGLMath.cpp"
+                  timestampString = "412863971.121"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "579">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloOpenGL/c3dView.mm"
+            timestampString = "414839423.860124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1774"
+            endingLineNumber = "1774"
+            landmarkName = "@implementation Cc3dView"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "malloc_error_break"
+            moduleName = "">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "c3dEngine/openALSupport/MyOpenALSupport.c"
+            timestampString = "415380928.596738"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,34 @@
+how to run demos:  
+  
+win32:  
+1, open allDemos/proj.win32 folder, open allDemos.sln with vs2010.
+2, chose the project you want to run in solution explorer and set it as start-up project.
+3, run.
+note: 
+better to run under release mode (as i mainly debug under release mode and may forget to configure debug mode sometimes).
+  
+iOS:  
+1, for example you want run app_box demo. open app_box/proj.ios folder.
+2, open .xcodeproj file with Xcode.
+3, run.
+note:
+1, currently not support iphone6 simulator, you can only run demos in iphone5 simulator. 
+2, some demos may do not have iOS version.
+
+----------------------------------------------------
+
+如何运行demos:
+  
+win32:  
+1, 进入allDemos/proj.win32目录, 用vs2010打开allDemos.sln.
+2, 在解决方案管理器中选择想运行的工程, 将其设为“启动项目”.
+3, 运行.
+注意：建议在release模式下运行 (我主要在release下调试,偶尔会忘记配debug).
+  
+iOS:  
+1, 例如想运行app_box这个demo,进入app_box/proj.ios目录。
+2, 用Xcode打开.xcodeproj文件。
+3, 运行.
+注意：
+1，目前不支持iphone6模拟器，只能在iphone5模拟器下运行。
+2，有些demo没有iOS版本。
