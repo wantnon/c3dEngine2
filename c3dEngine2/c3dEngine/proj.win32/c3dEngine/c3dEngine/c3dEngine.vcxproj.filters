@@ -67,6 +67,9 @@
     <Filter Include="extension\ui">
       <UniqueIdentifier>{4a095ae8-4b4f-4f8b-9bdc-465964e5d0ac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="c3dExtension\fbxLoader">
+      <UniqueIdentifier>{56ecfc53-3639-4c72-a8d4-00dcf1afb4d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\c3dEngine\common\c3dAL.h">
@@ -339,6 +342,9 @@
     <ClInclude Include="..\..\..\c3dEngine\platform\win32\OGLES\GL\GLU.h">
       <Filter>c3dEngine\platform\win32\OGLES\GL</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\c3dExtension\fbxLoader\c3dSkinActor.h">
+      <Filter>c3dExtension\fbxLoader</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\c3dEngine\common\c3dCommonFunc.cpp">
@@ -538,6 +544,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\extension\ui\button.cpp">
       <Filter>extension\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\c3dExtension\fbxLoader\c3dSkinActor.cpp">
+      <Filter>c3dExtension\fbxLoader</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

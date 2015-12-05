@@ -1,5 +1,4 @@
 #include "c3dSkinActor.h"
-#include "fbxsdk.h"
 
 bool isTopologySame(const Cc3dSkinMesh*mesh1,const Cc3dSkinMesh*mesh2){
     const int mesh1VertexCount = (int)mesh1->getVertexDupCount();
