@@ -17,29 +17,30 @@ void buildinProgramSetUp(){
     {
         string programName="shader_texColorOnly";
         Cc3dProgram*program=Cc3dProgramCache::sharedProgramCache()->createProgram(programFolder+"/"+programName+".vert", programFolder+"/"+programName+".frag", programName);
-        program->attachUniform("projMat");
-		program->attachUniform("modelMat");
-		program->attachUniform("viewMat");
-        program->attachUniform("texture");
+        program->addUniform("projMat",eUT_float4x4);
+		program->addUniform("modelMat",eUT_float4x4);
+		program->addUniform("viewMat",eUT_float4x4);
+        program->addUniform("texture",eUT_int);
     }
 	//
     {
         string programName="classicLighting";
         Cc3dProgram*program=Cc3dProgramCache::sharedProgramCache()->createProgram(programFolder+"/"+programName+".vert", programFolder+"/"+programName+".frag", programName);
-        program->attachUniform("projMat");
-		program->attachUniform("viewMat");
-        program->attachUniform("modelMat");
-        program->attachUniform("normMat");
-        program->attachUniform("texture");
-        program->attachUniform("lightPos_world");
-		program->attachUniform("eyePos_world");
-        program->attachUniform("diffuseMaterial");
-		program->attachUniform("diffuseLight");
-		program->attachUniform("ambientMaterial");
-		program->attachUniform("ambientLight");
-		program->attachUniform("specularMaterial");
-		program->attachUniform("specularLight");
-        program->attachUniform("shininess");
+        program->addUniform("projMat",eUT_float4x4);
+		program->addUniform("viewMat",eUT_float4x4);
+        program->addUniform("modelMat",eUT_float4x4);
+        program->addUniform("normMat",eUT_float4x4);
+        program->addUniform("lightPos_world",eUT_float4);
+		program->addUniform("eyePos_world",eUT_float4);
+        program->addUniform("diffuseMaterial",eUT_float4);
+		program->addUniform("diffuseLight",eUT_float4);
+		program->addUniform("ambientMaterial",eUT_float4);
+		program->addUniform("ambientLight",eUT_float4);
+		program->addUniform("specularMaterial",eUT_float4);
+		program->addUniform("specularLight",eUT_float4);
+        program->addUniform("shininess",eUT_float);
+        
+        program->addUniform("texture",eUT_int);
         
 
     }

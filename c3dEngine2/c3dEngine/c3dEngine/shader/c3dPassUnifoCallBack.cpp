@@ -15,10 +15,10 @@ void buildinProgramPassUnifoCallback_texColorOnly(Cc3dNode*node, Cc3dProgram*pro
     Cc3dMatrix4 modelMat=Cc3dModelMatStack::sharedModelMatStack()->getTopMat();
     Cc3dMatrix4 projMat=node->getCamera()->calculateProjectionMat();
     Cc3dMatrix4 viewMat=node->getCamera()->calculateViewMat();
-    program->passUnifoValue1i("texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projMat", projMat.getArray(), projMat.getArrayLen());
-	program->passUnifoValueMatrixNfv("modelMat", modelMat.getArray(), modelMat.getArrayLen());
-	program->passUnifoValueMatrixNfv("viewMat", viewMat.getArray(), viewMat.getArrayLen());
+    program->setUniform("texture", 0);//texture attach point 0
+    program->setUniform("projMat", projMat);
+	program->setUniform("modelMat", modelMat);
+	program->setUniform("viewMat", viewMat);
 }
 void buildinProgramPassUnifoCallback_classicLighting(Cc3dNode*node, Cc3dProgram*program){
     assert(node);
@@ -50,18 +50,18 @@ void buildinProgramPassUnifoCallback_classicLighting(Cc3dNode*node, Cc3dProgram*
     Cc3dMatrix4 PVMmat=projMat*viewMat*modelMat;
    
     // 
-    program->passUnifoValue1i("texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("viewMat", viewMat.getArray(), viewMat.getArrayLen());
-	program->passUnifoValueMatrixNfv("projMat", projMat.getArray(), projMat.getArrayLen());
-	program->passUnifoValueMatrixNfv("modelMat", modelMat.getArray(), modelMat.getArrayLen());
-	program->passUnifoValueMatrixNfv("normMat", normMat.getArray(), normMat.getArrayLen());
-    program->passUnifoValueNfv("diffuseMaterial", diffuseMaterial.getArray(),diffuseMaterial.getArrayLen());
-	program->passUnifoValueNfv("diffuseLight", diffuseLight.getArray(),diffuseLight.getArrayLen());
-    program->passUnifoValueNfv("ambientMaterial", ambientMaterial.getArray(), ambientMaterial.getArrayLen());
-	program->passUnifoValueNfv("ambientLight", ambientLight.getArray(), ambientLight.getArrayLen());
-	program->passUnifoValueNfv("specularMaterial", specularMaterial.getArray(), specularMaterial.getArrayLen());
-	program->passUnifoValueNfv("specularLight", specularLight.getArray(), specularLight.getArrayLen());
-	program->passUnifoValue1f("shininess", shininess);
-	program->passUnifoValueNfv("lightPos_world", lightPos.getArray(),lightPos.getArrayLen());
-	program->passUnifoValueNfv("eyePos_world", eyePos.getArray(),eyePos.getArrayLen());
+    program->setUniform("texture", 0);//texture attach point 0
+    program->setUniform("viewMat", viewMat);
+	program->setUniform("projMat", projMat);
+	program->setUniform("modelMat", modelMat);
+	program->setUniform("normMat", normMat);
+    program->setUniform("diffuseMaterial", diffuseMaterial);
+	program->setUniform("diffuseLight", diffuseLight);
+    program->setUniform("ambientMaterial", ambientMaterial);
+	program->setUniform("ambientLight", ambientLight);
+	program->setUniform("specularMaterial", specularMaterial);
+	program->setUniform("specularLight", specularLight);
+	program->setUniform("shininess", shininess);
+	program->setUniform("lightPos_world", lightPos);
+	program->setUniform("eyePos_world", eyePos);
 }

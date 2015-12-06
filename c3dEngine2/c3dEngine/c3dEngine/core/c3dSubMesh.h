@@ -241,6 +241,7 @@ public:
         
         Cc3dGLState::getInstance()->useProgram(m_program->getProgram());
         m_passUnifoCallback(this,m_program);
+        m_program->applyAllDirtyUniforms();
 		if(m_texture->getIsCubeTexture()){
             Cc3dGLState::getInstance()->bindTexture0(GL_TEXTURE_CUBE_MAP, m_texture->getID());
 		}else{

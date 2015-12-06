@@ -39,11 +39,11 @@ void buildinProgramPassUnifoCallback_cubemap(Cc3dNode*node, Cc3dProgram*program)
     Cc3dMatrix4 PVMmat=projMat*viewMat*modelMat;
     
     //
-    program->passUnifoValue1i("texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("viewMat", viewMat.getArray(), viewMat.getArrayLen());
-	program->passUnifoValueMatrixNfv("projMat", projMat.getArray(), projMat.getArrayLen());
-	program->passUnifoValueMatrixNfv("modelMat", modelMat.getArray(), modelMat.getArrayLen());
-	program->passUnifoValueMatrixNfv("normMat", normMat.getArray(), normMat.getArrayLen());
-	program->passUnifoValueNfv("lightPos_world", lightPos.getArray(),lightPos.getArrayLen());
-	program->passUnifoValueNfv("eyePos_world", eyePos.getArray(),eyePos.getArrayLen());
+    program->setUniform("texture", 0);//texture attach point 0
+    program->setUniform("viewMat", viewMat);
+	program->setUniform("projMat", projMat);
+	program->setUniform("modelMat", modelMat);
+	program->setUniform("normMat", normMat);
+	program->setUniform("lightPos_world", lightPos);
+	program->setUniform("eyePos_world", eyePos);
 }

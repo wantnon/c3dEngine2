@@ -25,13 +25,13 @@ void initGame(){
 		 string programFolder = "cubemap_resource/";
         string programName="cubemap";
         Cc3dProgram*program=Cc3dProgramCache::sharedProgramCache()->createProgram(programFolder+"/"+programName+".vert", programFolder+"/"+programName+".frag", programName);
-        program->attachUniform("projMat");
-		program->attachUniform("viewMat");
-        program->attachUniform("modelMat");
-        program->attachUniform("normMat");
-        program->attachUniform("texture");
-        program->attachUniform("lightPos_world");
-		program->attachUniform("eyePos_world");
+        program->addUniform("projMat",eUT_float4x4);
+		program->addUniform("viewMat",eUT_float4x4);
+        program->addUniform("modelMat",eUT_float4x4);
+        program->addUniform("normMat",eUT_float4x4);
+        program->addUniform("texture",eUT_int);
+        program->addUniform("lightPos_world",eUT_float4);
+		program->addUniform("eyePos_world",eUT_float4);
         
 
     }

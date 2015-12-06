@@ -13,6 +13,141 @@
 #else
 #include "platform/iOS/c3dProgramPlatformDepend.h"
 #endif
+
+bool isListEqual(const vector<float>&list,const float arr[],int n){
+    if((int)list.size()!=n)return false;
+    for(int i=0;i<n;i++){
+        if(list[i]!=arr[i])return false;
+    }
+    return true;
+}
+
+float Cc3dUniform::getFloat()const {
+    assert(m_type==eUT_float);
+    if(m_inited){
+        return m_floatList[0];
+    }else{
+        return 0;
+    }
+}
+int Cc3dUniform::getInt()const {
+    assert(m_type==eUT_int);
+    if(m_inited){
+        return m_intList[0];
+    }else{
+        return 0;
+    }
+}
+Cc3dVector2 Cc3dUniform::getV2()const {
+    assert(m_type==eUT_float2);
+    if(m_inited){
+        return Cc3dVector2(m_floatList[0],m_floatList[1]);
+    }else{
+        return Cc3dVector2();
+    }
+}
+Cc3dVector3 Cc3dUniform::getV3()const {
+    assert(m_type==eUT_float3);
+    if(m_inited){
+        return Cc3dVector3(m_floatList[0],m_floatList[1],m_floatList[2]);
+    }else{
+        return Cc3dVector3();
+    }
+}
+Cc3dVector4 Cc3dUniform::getV4()const {
+    assert(m_type==eUT_float4);
+    if(m_inited){
+        return Cc3dVector4(m_floatList[0],m_floatList[1],m_floatList[2],m_floatList[3]);
+    }else{
+        return Cc3dVector4();
+    }
+}
+Cc3dMatrix4 Cc3dUniform::getM4()const {
+    assert(m_type==eUT_float4x4);
+    if(m_inited){
+        return Cc3dMatrix4(m_floatList[0],m_floatList[1],m_floatList[2],m_floatList[3],
+                           m_floatList[4],m_floatList[5],m_floatList[6],m_floatList[7],
+                           m_floatList[8],m_floatList[9],m_floatList[10],m_floatList[11],
+                           m_floatList[12],m_floatList[13],m_floatList[14],m_floatList[15]);
+    }else{
+        return Cc3dMatrix4();
+    }
+}
+
+void Cc3dUniform::set(int x){
+    assert(m_type==eUT_int);
+    if((int)m_intList.size()!=1||x!=m_intList[0]){
+        m_intList.resize(1);
+        m_intList[0]=x;
+        m_isDirty=true;
+    }
+    if(m_inited==false){
+        m_inited=true;
+        m_isDirty=true;
+    }
+}
+
+void Cc3dUniform::set(float x){
+    assert(m_type==eUT_float);
+    if((int)m_floatList.size()!=1||x!=m_floatList[0]){
+        m_floatList.resize(1);
+        m_floatList[0]=x;
+        m_isDirty=true;
+    }
+    if(m_inited==false){
+        m_inited=true;
+        m_isDirty=true;
+    }
+}
+void Cc3dUniform::set(const Cc3dVector2&v){
+    assert(m_type==eUT_float2);
+    if(isListEqual(m_floatList,v.getArray(),v.getArrayLen())==false){
+        m_floatList=v.convertToVector();
+        m_isDirty=true;
+    }
+    if(m_inited==false){
+        m_inited=true;
+        m_isDirty=true;
+    }
+}
+void Cc3dUniform::set(const Cc3dVector3&v){
+    assert(m_type==eUT_float3);
+    if(isListEqual(m_floatList,v.getArray(),v.getArrayLen())==false){
+        m_floatList=v.convertToVector();
+        m_isDirty=true;
+    }
+    if(m_inited==false){
+        m_inited=true;
+        m_isDirty=true;
+    }
+}
+void Cc3dUniform::set(const Cc3dVector4&v){
+    assert(m_type==eUT_float4);
+    if(isListEqual(m_floatList,v.getArray(),v.getArrayLen())==false){
+        m_floatList=v.convertToVector();
+        m_isDirty=true;
+    }
+    if(m_inited==false){
+        m_inited=true;
+        m_isDirty=true;
+    }
+}
+void Cc3dUniform::set(const Cc3dMatrix4&m){
+    assert(m_type==eUT_float4x4);
+    if(isListEqual(m_floatList,m.getArray(),m.getArrayLen())==false){
+        m_floatList=m.convertToVector();
+        m_isDirty=true;
+    }
+    if(m_inited==false){
+        m_inited=true;
+        m_isDirty=true;
+    }
+}
+
+
+
+
+//------------------------------------------------------------------------------------------
 bool Cc3dProgram::initWithFile(const string&vertShaderFilePath,const string&fragShaderFilePath){
     m_vertShaderFilePath=vertShaderFilePath;
     m_fragShaderFilePath=fragShaderFilePath;
@@ -55,79 +190,81 @@ GLuint Cc3dProgram::createShader(const char*shaderName,const char*ext)
     return createShader_plat(shaderName,ext);
 }
 
-void Cc3dProgram::passUnifoValue1f(string unifoName,GLfloat v){
-    glUniform1f(m_unifoMap[unifoName],v);
-}
-void Cc3dProgram::passUnifoValue1i(string unifoName,GLint v){
-    glUniform1i(m_unifoMap[unifoName],v);
-}
-void Cc3dProgram::passUnifoValueMatrixNfv(string unifoName,const GLfloat *array,int arrayLen){
-    assert(arrayLen==4||arrayLen==9||arrayLen==16);
-    switch (arrayLen) {
-        case 4:
-            glUniformMatrix2fv(m_unifoMap[unifoName],1,GL_FALSE,array);
-            break;
-        case 9:
-            glUniformMatrix3fv(m_unifoMap[unifoName],1,GL_FALSE,array);
-            break;
-        case 16:
-            glUniformMatrix4fv(m_unifoMap[unifoName],1,GL_FALSE,array);
-            break;
-        default:
-            assert(false);
-            break;
+Cc3dUniform*Cc3dProgram::getpUnifomByName(const string&unifoName){
+    const int unifoCount=(int)m_uniformList.size();
+    for(int i=0;i<unifoCount;i++){
+        Cc3dUniform&unifo=m_uniformList[i];
+        if(unifo.m_name==unifoName){
+            return &unifo;
+        }
     }
-    
+    return NULL;
 }
-void Cc3dProgram::passUnifoValueNfv(string unifoName,const GLfloat*array,int arrayLen){
-    assert(arrayLen>=1&&arrayLen<=4);
-    switch (arrayLen) {
-        case 1:
-            glUniform1fv(m_unifoMap[unifoName],1,array);
-            break;
-        case 2:
-            glUniform2fv(m_unifoMap[unifoName],1,array);
-            break;
-        case 3:
-            glUniform3fv(m_unifoMap[unifoName],1,array);
-            break;
-        case 4:
-            glUniform4fv(m_unifoMap[unifoName],1,array);
-            break;
-        default:
-            assert(false);
-            break;
-    }
-    
+void Cc3dProgram::setUniform(const string&unifoName,int x){
+    Cc3dUniform*p=getpUnifomByName(unifoName);
+    if(p)p->set(x);
 }
-void Cc3dProgram::passUnifoValueNiv(string unifoName,const GLint*array,int arrayLen){
-    assert(arrayLen>=1&&arrayLen<=4);
-    switch (arrayLen) {
-        case 1:
-            glUniform1iv(m_unifoMap[unifoName],1,array);
-            break;
-        case 2:
-            glUniform2iv(m_unifoMap[unifoName],1,array);
-            break;
-        case 3:
-            glUniform3iv(m_unifoMap[unifoName],1,array);
-            break;
-        case 4:
-            glUniform4iv(m_unifoMap[unifoName],1,array);
-            break;
-        default:
-            assert(false);
-            break;
-    }
-    
+void Cc3dProgram::setUniform(const string&unifoName,float x){
+    Cc3dUniform*p=getpUnifomByName(unifoName);
+    if(p)p->set(x);
 }
-void Cc3dProgram::passUnifoValueMatrixNfv(string unifoName,const vector<GLfloat>&valueList){
-    passUnifoValueMatrixNfv(unifoName, &valueList.front(), (int)valueList.size());
+void Cc3dProgram::setUniform(const string&unifoName,const Cc3dVector2&v2){
+    Cc3dUniform*p=getpUnifomByName(unifoName);
+    if(p)p->set(v2);
 }
-void Cc3dProgram::passUnifoValueNfv(string unifoName,const vector<GLfloat>&valueList){
-    passUnifoValueNfv(unifoName, &valueList.front(), (int)valueList.size());
+void Cc3dProgram::setUniform(const string&unifoName,const Cc3dVector3&v3){
+    Cc3dUniform*p=getpUnifomByName(unifoName);
+    if(p)p->set(v3);
 }
-void Cc3dProgram::passUnifoValueNiv(string unifoName,const vector<GLint>&valueList){
-    passUnifoValueNiv(unifoName, &valueList.front(), (int)valueList.size());
+void Cc3dProgram::setUniform(const string&unifoName,const Cc3dVector4&v4){
+    Cc3dUniform*p=getpUnifomByName(unifoName);
+    if(p)p->set(v4);
+}
+void Cc3dProgram::setUniform(const string&unifoName,const Cc3dMatrix4&m4){
+    Cc3dUniform*p=getpUnifomByName(unifoName);
+    if(p)p->set(m4);
 }
 
+void Cc3dProgram::applyAllDirtyUniforms(){
+    const int unifoCount=(int)m_uniformList.size();
+    for(int i=0;i<unifoCount;i++){
+        Cc3dUniform&unifo=m_uniformList[i];
+        if(unifo.m_isDirty){//optim
+            applyUniform(unifo);
+            unifo.m_isDirty=false;//m_isDirty consumed
+        }
+    }
+}
+
+void Cc3dProgram::applyUniform(const Cc3dUniform&unifo)
+//shader can preserve uniform value even though it is unbinded and bind again
+//ref: https://www.opengl.org/discussion_boards/showthread.php/185522-glUniform-values-are-preserved-when-shader-is-uninstalled
+//and ref: http://www.opengpu.org/bbs/forum.php?mod=viewthread&tid=17637
+{
+    eUnifoType type=unifo.m_type;
+    string name=unifo.m_name;
+    switch(type){
+        case eUT_int:
+            glUniform1i(unifo.m_handle,unifo.getInt());
+            break;
+        case eUT_float:
+            glUniform1f(unifo.m_handle,unifo.getFloat());
+            break;
+        case eUT_float2:
+            glUniform2fv(unifo.m_handle,1,unifo.getV2().getArray());
+            break;
+        case eUT_float3:
+            glUniform3fv(unifo.m_handle,1,unifo.getV3().getArray());
+            break;
+        case eUT_float4:
+            glUniform4fv(unifo.m_handle,1,unifo.getV4().getArray());
+            break;
+        case eUT_float4x4:
+            glUniformMatrix4fv(unifo.m_handle,1,GL_FALSE,unifo.getM4().getArray());
+            break;
+        default:
+            assert(false);
+            break;
+    }
+    
+}

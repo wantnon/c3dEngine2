@@ -34,16 +34,16 @@ void passUnifoCallback_diffuse_ambient_noTransf_shadowMap(Cc3dNode*node, Cc3dPro
                                                                                 submesh->getLight()->getLightViewCameraByIndex(1)->calculateProjectionMat());
 
     //
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueNfv("color", color.getArray(), color.getArrayLen());
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
-    program->passUnifoValueNfv("diffuseML", diffuseML.getArray(),diffuseML.getArrayLen());
-    program->passUnifoValueNfv("lightPos_world", lightPos.getArray(),lightPos.getArrayLen());
-    program->passUnifoValueNfv("ambientML", ambientML.getArray(), ambientML.getArrayLen());
-    program->passUnifoValue1i("Texture_shadowMap", 1);
-    program->passUnifoValue1i("Texture_shadowMap2", 2);
-    program->passUnifoValueMatrixNfv("worldToLightViewportTexCoord",worldToLightViewportTexCoord.getArray(),worldToLightViewportTexCoord.getArrayLen());
-    program->passUnifoValueMatrixNfv("worldToLightViewportTexCoord2",worldToLightViewportTexCoord2.getArray(),worldToLightViewportTexCoord2.getArrayLen());
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("color", color);
+    program->setUniform("projectionModelview", PVMmat);
+    program->setUniform("diffuseML", diffuseML);
+    program->setUniform("lightPos_world", lightPos);
+    program->setUniform("ambientML", ambientML);
+    program->setUniform("Texture_shadowMap", 1);
+    program->setUniform("Texture_shadowMap2", 2);
+    program->setUniform("worldToLightViewportTexCoord",worldToLightViewportTexCoord);
+    program->setUniform("worldToLightViewportTexCoord2",worldToLightViewportTexCoord2);
 
 }
 void passUnifoCallback_diffuse_ambient_noTransf_noSelfShadow(Cc3dNode*node, Cc3dProgram*program){
@@ -72,15 +72,15 @@ void passUnifoCallback_diffuse_ambient_noTransf_noSelfShadow(Cc3dNode*node, Cc3d
                                                                                 submesh->getLight()->getLightViewCameraByIndex(1)->calculateProjectionMat());
     
     //
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
-    program->passUnifoValueNfv("diffuseML", diffuseML.getArray(),diffuseML.getArrayLen());
-    program->passUnifoValueNfv("lightPos_world", lightPos.getArray(),lightPos.getArrayLen());
-    program->passUnifoValueNfv("ambientML", ambientML.getArray(), ambientML.getArrayLen());
-    program->passUnifoValue1i("Texture_shadowMap", 1);
-    program->passUnifoValue1i("Texture_shadowMap2", 2);
-    program->passUnifoValueMatrixNfv("worldToLightViewportTexCoord",worldToLightViewportTexCoord.getArray(),worldToLightViewportTexCoord.getArrayLen());
-    program->passUnifoValueMatrixNfv("worldToLightViewportTexCoord2",worldToLightViewportTexCoord2.getArray(),worldToLightViewportTexCoord2.getArrayLen());
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("projectionModelview", PVMmat);
+    program->setUniform("diffuseML", diffuseML);
+    program->setUniform("lightPos_world", lightPos);
+    program->setUniform("ambientML", ambientML);
+    program->setUniform("Texture_shadowMap", 1);
+    program->setUniform("Texture_shadowMap2", 2);
+    program->setUniform("worldToLightViewportTexCoord",worldToLightViewportTexCoord);
+    program->setUniform("worldToLightViewportTexCoord2",worldToLightViewportTexCoord2);
 
 }
 void passUnifoCallback_diffuse_ambient_noSelfShadow(Cc3dNode*node, Cc3dProgram*program){
@@ -111,16 +111,16 @@ void passUnifoCallback_diffuse_ambient_noSelfShadow(Cc3dNode*node, Cc3dProgram*p
                                                                                submesh->getLight()->getLightViewCameraByIndex(0)->calculateProjectionMat());
 
     //
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
-    program->passUnifoValueMatrixNfv("modelMat", modelMat.getArray(), modelMat.getArrayLen());
-    program->passUnifoValueNfv("lightPos_world", lightPos.getArray(),lightPos.getArrayLen());
-    program->passUnifoValueNfv("diffuseML", diffuseML.getArray(),diffuseML.getArrayLen());
-    program->passUnifoValueNfv("ambientML", ambientML.getArray(), ambientML.getArrayLen());
-    program->passUnifoValue1i("Texture_shadowMap", 1);
-    program->passUnifoValue1i("Texture_shadowMap2", 2);
-    program->passUnifoValueMatrixNfv("worldToLightViewportTexCoord",worldToLightViewportTexCoord.getArray(),worldToLightViewportTexCoord.getArrayLen());
-    program->passUnifoValueMatrixNfv("normMat_toWorld", normalMat.getArray(), normalMat.getArrayLen());
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("projectionModelview", PVMmat);
+    program->setUniform("modelMat", modelMat);
+    program->setUniform("lightPos_world", lightPos);
+    program->setUniform("diffuseML", diffuseML);
+    program->setUniform("ambientML", ambientML);
+    program->setUniform("Texture_shadowMap", 1);
+    program->setUniform("Texture_shadowMap2", 2);
+    program->setUniform("worldToLightViewportTexCoord",worldToLightViewportTexCoord);
+    program->setUniform("normMat_toWorld", normalMat);
 }
 void passUnifoCallback_water(Cc3dNode*node, Cc3dProgram*program){
     assert(node);
@@ -132,9 +132,9 @@ void passUnifoCallback_water(Cc3dNode*node, Cc3dProgram*program){
     Cc3dMatrix4 viewMat=submesh->getCamera()->calculateViewMat();
     //
     Cc3dMatrix4 PVMmat=projMat*viewMat*modelMat;
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
-    program->passUnifoValue1f("maxAlpha",0.5);//0.6);
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("projectionModelview", PVMmat);
+    program->setUniform("maxAlpha",0.5f);//0.6);
 }
 void passUnifoCallback_texOnly_useTexAsAlpha(Cc3dNode*node, Cc3dProgram*program){
     assert(node);
@@ -146,8 +146,8 @@ void passUnifoCallback_texOnly_useTexAsAlpha(Cc3dNode*node, Cc3dProgram*program)
     Cc3dMatrix4 viewMat=submesh->getCamera()->calculateViewMat();
     //
     Cc3dMatrix4 PVMmat=projMat*viewMat*modelMat;
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("projectionModelview", PVMmat);
 }
 void passUnifoCallback_diffuse_ambient_specular_noSelfShadow(Cc3dNode*node, Cc3dProgram*program){
     assert(node);
@@ -177,19 +177,19 @@ void passUnifoCallback_diffuse_ambient_specular_noSelfShadow(Cc3dNode*node, Cc3d
     Cc3dMatrix4 worldToLightViewportTexCoord=calculateWorldToViewportTexCoordMatrix(submesh->getLight()->getLightViewCameraByIndex(0)->calculateViewMat(),
                                                                                submesh->getLight()->getLightViewCameraByIndex(0)->calculateProjectionMat());
     //
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
-    program->passUnifoValueNfv("diffuseML", diffuseML.getArray(),diffuseML.getArrayLen());
-    program->passUnifoValueNfv("lightPos_world", lightPos.getArray(),lightPos.getArrayLen());
-    program->passUnifoValueNfv("ambientML", ambientML.getArray(), ambientML.getArrayLen());
-    program->passUnifoValue1i("Texture_shadowMap", 1);
-    program->passUnifoValueMatrixNfv("worldToLightViewportTexCoord",worldToLightViewportTexCoord.getArray(),worldToLightViewportTexCoord.getArrayLen());
-    program->passUnifoValueNfv("specularML",specularML.getArray(),specularML.getArrayLen());
-    program->passUnifoValueMatrixNfv( "modelMat",modelMat.getArray(),modelMat.getArrayLen());
-    program->passUnifoValueMatrixNfv("normMat_toWorld",normalMat.getArray(),normalMat.getArrayLen());
-    program->passUnifoValue1f("shininess",shininess);
-    program->passUnifoValue1i("isHighlightUntransp",true);
-    program->passUnifoValueNfv("eyePos_world",submesh->getCamera()->getEyePos().getArray(),3);
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("projectionModelview", PVMmat);
+    program->setUniform("diffuseML", diffuseML);
+    program->setUniform("lightPos_world", lightPos);
+    program->setUniform("ambientML", ambientML);
+    program->setUniform("Texture_shadowMap", 1);
+    program->setUniform("worldToLightViewportTexCoord",worldToLightViewportTexCoord);
+    program->setUniform("specularML",specularML);
+    program->setUniform("modelMat",modelMat);
+    program->setUniform("normMat_toWorld",normalMat);
+    program->setUniform("shininess",shininess);
+    program->setUniform("isHighlightUntransp",(int)1);
+    program->setUniform("eyePos_world",submesh->getCamera()->getEyePos().toV3());
 }
 
 void passUnifoCallback_texOnly_noSelfShadow(Cc3dNode*node, Cc3dProgram*program){
@@ -215,13 +215,13 @@ void passUnifoCallback_texOnly_noSelfShadow(Cc3dNode*node, Cc3dProgram*program){
     Cc3dMatrix4 worldToLightViewportTexCoord=calculateWorldToViewportTexCoordMatrix(submesh->getLight()->getLightViewCameraByIndex(0)->calculateViewMat(),
                                                                                submesh->getLight()->getLightViewCameraByIndex(0)->calculateProjectionMat());
     //
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
-    program->passUnifoValueNfv("lightPos_world", lightPos.getArray(),lightPos.getArrayLen());
-    program->passUnifoValue1i("Texture_shadowMap", 1);
-    program->passUnifoValueMatrixNfv("worldToLightViewportTexCoord",worldToLightViewportTexCoord.getArray(),worldToLightViewportTexCoord.getArrayLen());
-    program->passUnifoValueMatrixNfv( "modelMat",modelMat.getArray(),modelMat.getArrayLen());
-    program->passUnifoValue1i("Texture_shadowMap2", 2);
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("projectionModelview", PVMmat);
+    program->setUniform("lightPos_world", lightPos);
+    program->setUniform("Texture_shadowMap", 1);
+    program->setUniform("worldToLightViewportTexCoord",worldToLightViewportTexCoord);
+    program->setUniform("modelMat",modelMat);
+    program->setUniform("Texture_shadowMap2", 2);
 }
 
 void passUnifoCallback_texOnly_blackTransp(Cc3dNode*node, Cc3dProgram*program){
@@ -236,9 +236,9 @@ void passUnifoCallback_texOnly_blackTransp(Cc3dNode*node, Cc3dProgram*program){
     Cc3dMatrix4 PVMmat=projMat*viewMat*modelMat;
     Cc3dVector4 blackColor(0,0,0,1);
 
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
-    program->passUnifoValueNfv("transpColor", blackColor.getArray(),blackColor.getArrayLen());
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("projectionModelview", PVMmat);
+    program->setUniform("transpColor", blackColor);
 
 }
 
@@ -254,9 +254,9 @@ void passUnifoCallback_texOnly_brightBlueTransp(Cc3dNode*node, Cc3dProgram*progr
     Cc3dMatrix4 PVMmat=projMat*viewMat*modelMat;
     Cc3dVector4 brightBlueColor(0,1,1,1);
     
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
-    program->passUnifoValueNfv("transpColor", brightBlueColor.getArray(),brightBlueColor.getArrayLen());
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("projectionModelview", PVMmat);
+    program->setUniform("transpColor", brightBlueColor);
     
 }
 
@@ -270,7 +270,7 @@ void passUnifoCallback_renderDepth(Cc3dNode*node, Cc3dProgram*program){
     Cc3dMatrix4 viewMat=submesh->getCamera()->calculateViewMat();
     //
     Cc3dMatrix4 PVMmat=projMat*viewMat*modelMat;
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
+    program->setUniform("projectionModelview", PVMmat);
 
 }
 void passUnifoCallback_noLight(Cc3dNode*node, Cc3dProgram*program){
@@ -285,9 +285,9 @@ void passUnifoCallback_noLight(Cc3dNode*node, Cc3dProgram*program){
     Cc3dMatrix4 PVMmat=projMat*viewMat*modelMat;
     Cc3dVector4 color=submesh->getMaterial()->getColor();
     
-    program->passUnifoValue1i("Texture", 0);//texture attach point 0
-    program->passUnifoValueMatrixNfv("projectionModelview", PVMmat.getArray(), PVMmat.getArrayLen());
-    program->passUnifoValueNfv("color", color.getArray(),color.getArrayLen());
+    program->setUniform("Texture", 0);//texture attach point 0
+    program->setUniform("projectionModelview", PVMmat);
+    program->setUniform("color", color);
     
 
 }
