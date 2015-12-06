@@ -43,7 +43,7 @@ GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minF
     glBindTexture(GL_TEXTURE_2D, texture);
    
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, minFilter);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, magFilter);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, magFilter);//magFilter can not use GL_XXX_MIPMAP_XXXX, see: http://www.cnblogs.com/wantnon/p/5024363.html
     glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, wrapS );
     glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, wrapT );
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, spriteData);

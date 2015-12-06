@@ -74,7 +74,7 @@ public:
         }
     }
     Cc3dTexture* addImage( const string&filePath,int wrapS=GL_REPEAT,int wrapT=GL_REPEAT,GLint minFilter=GL_LINEAR_MIPMAP_NEAREST,GLint magFilter=GL_LINEAR,bool genMipmap=true)
-	//
+	//magFilter can not use GL_XXX_MIPMAP_XXXX, see: http://www.cnblogs.com/wantnon/p/5024363.html
     //if exist , do not create again
     {
 		//if found, return texture directly
