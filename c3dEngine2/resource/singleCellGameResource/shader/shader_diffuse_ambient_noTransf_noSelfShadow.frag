@@ -20,7 +20,7 @@ void main(void) {
     if(lightViewportTexCoordDivW2.z>zLookup2){
         shadowFactor=0.55;
     }else{
-        shadowFactor=(lightViewportTexCoordDivW.z>zLookup?0.65:1.0);
+        shadowFactor=(lightViewportTexCoordDivW.z>zLookup+0.001?0.65:1.0);//2015-12-6: add a small bais to avoid shadow z-fighting, but a better method maybe use glPolygonOffset, try it later
     }
     lowp vec4 shadowFactorRGBA=vec4(shadowFactor,shadowFactor,shadowFactor,1.0);
     gl_FragColor = shadowFactorRGBA*mainColor*texColor;

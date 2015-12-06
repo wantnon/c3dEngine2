@@ -24,6 +24,7 @@ void main(void) {
         shadowFactor=max(0.6,1.0-max(0.0,dz)*100.0);// the shadow of scene have gradual change, makes more real and natural
     }
     lowp vec4 shadowFactorRGBA=vec4(shadowFactor,shadowFactor,shadowFactor,1.0);
+
     
     gl_FragColor =color*shadowFactorRGBA*mainColor *texture2D(Texture, texCoordOut);
     

@@ -31,6 +31,7 @@ bool Cc3dTexture::initDepthTexture(int width,int height,int wrapS,int wrapT,GLin
     //            2, use GL_UNSIGNED_INT, not GL_UNSIGNED_BYTE
     glTexImage2D( GL_TEXTURE_2D, 0, GL_DEPTH_COMPONENT,m_width, m_height, 0,
                  GL_DEPTH_COMPONENT,GL_UNSIGNED_INT, NULL);
+  //////////  glGenerateMipmap(GL_TEXTURE_CUBE_MAP);
     glBindTexture(GL_TEXTURE_2D, 0);
     
     C3DCHECK_GL_ERROR_DEBUG();

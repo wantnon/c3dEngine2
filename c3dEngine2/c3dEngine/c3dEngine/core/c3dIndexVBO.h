@@ -150,7 +150,9 @@ private:
             //if m_indexCount!=0 but m_vertexCount==0, may means forget to submit before draw
         }
 		//cout<<"m_indexCount:"<<m_indexCount<<endl;
-        glDrawElements(mode,m_indexCount,GL_UNSIGNED_INT, 0);
+        if(m_indexCount!=0){
+            glDrawElements(mode,m_indexCount,GL_UNSIGNED_INT, 0);
+        }
         //the last parameter must be one of GL_UNSIGNED_BYTE, GL_UNSIGNED_SHORT, or GL_UNSIGNED_INT.
 		//even the index type is int, we should use GL_UNSIGNED_INT
         //the first parameter is a symbolic constants GL_POINTS, GL_LINE_STRIP, GL_LINE_LOOP, GL_LINES,
