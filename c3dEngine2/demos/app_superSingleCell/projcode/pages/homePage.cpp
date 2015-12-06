@@ -47,7 +47,7 @@ bool ChomePage::init(){
         m_quad_homePage_backGround->autorelease();
         string imagePathShort="singleCellGameResource/data/global/tex/pageTexs/homePageTex/backGround_";
         imagePathShort+=resoStr+".png";
-        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage(imagePathShort,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR);
+        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage(imagePathShort,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         const float texW=ptex->getWidth();
         const float texH=ptex->getHeight();
         float bx=0;
@@ -77,7 +77,7 @@ bool ChomePage::init(){
         m_debugKey->setKeyDownColor(0.7, 0.7, 0.7, 1);
         m_debugKey->setKeyUpColor(1, 1, 1, 1);
         m_debugKey->useKeyUpColor();
-        m_debugKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->setTexture(Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_debug.png"));
+        m_debugKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->setTexture(Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_debug.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false));
         m_debugKey->setCamera(camera2D);
         m_debugKey->getModel()->getMeshList()[0]->setIsWriteDepthBuffer(false);
         m_debugKey->setProgram(Cc3dProgramCache::sharedProgramCache()->getProgramByName("shaderNoLight"));
@@ -94,7 +94,7 @@ bool ChomePage::init(){
     {
         m_backKey=new Ckey();
         m_backKey->autorelease();
-        Cc3dTexture* ptexture=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_back.png");
+        Cc3dTexture* ptexture=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_back.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         float c[2]={0,0};
         m_backKey->genAndInit(c[0]-r_key,c[0]+r_key,c[1]-r_key,c[1]+r_key, 0,1,0,1);
         m_backKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->getIndexVBO()->genBuffers();

@@ -7,7 +7,7 @@
 //
 
 #include "c3dTexturePlatformDepend.h"
-GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,float&textureWidth,float&textureHeight)
+GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,bool genMipmap,float&textureWidth,float&textureHeight)
 
 {
     // 1
@@ -47,7 +47,7 @@ GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minF
     glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, wrapS );
     glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, wrapT );
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, spriteData);
-    glGenerateMipmap(GL_TEXTURE_2D);
+    if(genMipmap)glGenerateMipmap(GL_TEXTURE_2D);
     //data can be released
     free(spriteData);
     //

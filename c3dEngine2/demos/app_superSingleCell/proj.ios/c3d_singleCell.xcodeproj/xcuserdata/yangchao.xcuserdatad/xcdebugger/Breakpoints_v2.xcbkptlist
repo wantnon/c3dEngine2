@@ -19,5 +19,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../c3dEngine/c3dEngine/platform/iOS/c3dTexturePlatformDepend.mm"
+            timestampString = "471093847.933959"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "createGLTexture_plat(const string&amp;filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,bool genMipmap,float&amp;textureWidth,float&amp;textureHeight)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../c3dEngine/c3dEngine/platform/iOS/c3dTexturePlatformDepend.mm"
+            timestampString = "471098085.576103"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "createGLTexture_plat(const string&amp;filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,bool genMipmap,float&amp;textureWidth,float&amp;textureHeight)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../c3dEngine/c3dEngine/platform/iOS/c3dTexturePlatformDepend.mm"
+            timestampString = "471094901.579126"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "createGLTexture_plat(const string&amp;filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,bool genMipmap,float&amp;textureWidth,float&amp;textureHeight)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -73,8 +73,9 @@ public:
             return rsList[0];
         }
     }
-    Cc3dTexture* addImage( const string&filePath,int wrapS=GL_REPEAT,int wrapT=GL_REPEAT,GLint minFilter=GL_LINEAR_MIPMAP_NEAREST,GLint magFilter=GL_LINEAR_MIPMAP_NEAREST)
-	//if exist , do not create again
+    Cc3dTexture* addImage( const string&filePath,int wrapS=GL_REPEAT,int wrapT=GL_REPEAT,GLint minFilter=GL_LINEAR_MIPMAP_NEAREST,GLint magFilter=GL_LINEAR,bool genMipmap=true)
+	//
+    //if exist , do not create again
     {
 		//if found, return texture directly
         Cc3dTexture* texture=getTextureByKey(filePath);
@@ -85,7 +86,7 @@ public:
         //create texture
         texture=new Cc3dTexture();
         texture->autorelease();
-        texture->init(filePath,wrapS,wrapT,minFilter,magFilter);
+        texture->init(filePath,wrapS,wrapT,minFilter,magFilter,genMipmap);
         m_textureList.push_back(texture);
         texture->retain();
     //    C3DLOG("texture filePathShort:%s",filePathShort.c_str());

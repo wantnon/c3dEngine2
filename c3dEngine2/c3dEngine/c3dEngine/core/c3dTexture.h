@@ -54,7 +54,7 @@ public:
     string getFilePath()const{
         return m_filePath;
     }
-    bool init( const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter);
+    bool init( const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,bool genMipmap);
     bool initDepthTexture(int width,int height,int wrapS,int wrapT,GLint minFilter,GLint magFilter);
     bool initColorTexture(int width,int height,int wrapS,int wrapT,GLint minFilter,GLint magFilter);
 	bool initCubeTexture(const vector<string>&filePathList,int wrapS=GL_CLAMP_TO_EDGE,int wrapT=GL_CLAMP_TO_EDGE,int wrapR=GL_CLAMP_TO_EDGE,GLint minFilter=GL_LINEAR_MIPMAP_LINEAR,GLint magFilter=GL_LINEAR,bool isGenMipmap=true);

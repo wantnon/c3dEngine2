@@ -29,7 +29,7 @@ bool CsettingPage::init(){
         //
         string imagePathShort="singleCellGameResource/data/global/tex/pageTexs/settingPageTex/backGround_";
         imagePathShort+=resoStr+".png";
-        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage(imagePathShort,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR);
+        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage(imagePathShort,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         const float texW=ptex->getWidth();
         const float texH=ptex->getHeight();
         float bx=0;
@@ -54,7 +54,7 @@ bool CsettingPage::init(){
         m_backKey=new Ckey();
         m_backKey->autorelease();
         //
-        Cc3dTexture* ptexture=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_back.png");
+        Cc3dTexture* ptexture=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_back.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         float c[2]={0,0};
         m_backKey->genAndInit(c[0]-r_key,c[0]+r_key,c[1]-r_key,c[1]+r_key, 0,1,0,1);
         m_backKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->getIndexVBO()->genBuffers();
@@ -79,7 +79,7 @@ bool CsettingPage::init(){
         m_turnOnAudioKey=new Ckey();
         m_turnOnAudioKey->autorelease();
         //
-        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_audioOn.png");
+        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_audioOn.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         float c[2]={0,0};
         m_turnOnAudioKey->genAndInit(c[0]-r_key,c[0]+r_key,c[1]-r_key,c[1]+r_key, 0,1,0,1);
         m_turnOnAudioKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->getIndexVBO()->genBuffers();
@@ -106,7 +106,7 @@ bool CsettingPage::init(){
         m_turnOffAudioKey=new Ckey();
         m_turnOffAudioKey->autorelease();
         //
-        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_audioOff.png");
+        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_audioOff.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         float c[2]={0,0};
         m_turnOffAudioKey->genAndInit(c[0]-r_key,c[0]+r_key,c[1]-r_key,c[1]+r_key, 0,1,0,1);
         m_turnOffAudioKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->getIndexVBO()->genBuffers();

@@ -21,7 +21,7 @@ bool CviewingTipPage::init(){
     const float height=Cc3dDeviceAndOSInfo::sharedDeviceAndOSInfo()->getScreenSize().y();
     //--quad_tipTex
     {
-        Cc3dTexture*texture=Cc3dTextureCache::sharedTextureCache()->addImage(rootPath+"/tipTex/tipTex.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR);
+        Cc3dTexture*texture=Cc3dTextureCache::sharedTextureCache()->addImage(rootPath+"/tipTex/tipTex.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         m_quad_tipTex=new Ckey();
         m_quad_tipTex->autorelease();
         //

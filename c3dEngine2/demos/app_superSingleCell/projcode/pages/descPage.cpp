@@ -29,7 +29,7 @@ bool CdescPage::init(){
         //
         string imagePathShort="singleCellGameResource/data/global/tex/pageTexs/descPageTex/backGround_";
         imagePathShort+=resoStr+".png";
-        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage(imagePathShort,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR);
+        Cc3dTexture* ptex=Cc3dTextureCache::sharedTextureCache()->addImage(imagePathShort,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         const float texW=ptex->getWidth();
         const float texH=ptex->getHeight();
         float bx=0;
@@ -55,7 +55,7 @@ bool CdescPage::init(){
         m_foeKey=new Ckey();
         m_foeKey->autorelease();
         //
-        Cc3dTexture* ptexture=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_foe.png");
+        Cc3dTexture* ptexture=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_foe.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         float c[2]={0,0};
         m_foeKey->genAndInit(c[0]-r_key,c[0]+r_key,c[1]-r_key/2,c[1]+r_key/2, 0,1,0,1);
         m_foeKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->getIndexVBO()->genBuffers();
@@ -79,7 +79,7 @@ bool CdescPage::init(){
         m_nextKey=new Ckey();
         m_nextKey->autorelease();
         //
-        Cc3dTexture* ptexture_nextKey=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_next.png");
+        Cc3dTexture* ptexture_nextKey=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_next.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         float c[2]={0,0};
         m_nextKey->genAndInit(c[0]-r_key,c[0]+r_key,c[1]-r_key/2,c[1]+r_key/2, 0,1,0,1);
         m_nextKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->getIndexVBO()->genBuffers();

@@ -11,9 +11,9 @@ bool Cbutton::init(float width,float height,string imagePath_up,string imagePath
 	m_width=width;
 	m_height=height;
 	//--texture
-	m_textureUp=Cc3dTextureCache::sharedTextureCache()->addImage(imagePath_up,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR);
+	m_textureUp=Cc3dTextureCache::sharedTextureCache()->addImage(imagePath_up,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
 	m_textureUp->retain();
-	m_textureDn=Cc3dTextureCache::sharedTextureCache()->addImage(imagePath_dn,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR);
+	m_textureDn=Cc3dTextureCache::sharedTextureCache()->addImage(imagePath_dn,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
 	m_textureDn->retain();
 
 	//meshes

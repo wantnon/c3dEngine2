@@ -45,7 +45,7 @@ bool Cboard::init(float width,float height,string imagePath){
 	m_width=width;
 	m_height=height;
 	//--texture
-	Cc3dTexture*texture=Cc3dTextureCache::sharedTextureCache()->addImage(imagePath,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR);
+	Cc3dTexture*texture=Cc3dTextureCache::sharedTextureCache()->addImage(imagePath,GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
 
 	//meshes
 	{

@@ -55,7 +55,7 @@ bool CgameOverPage::init(){
         m_restartKey->setKeyDownColor(0.7, 0.7, 0.7, 1);
         m_restartKey->setKeyUpColor(1, 1, 1, 1);
         m_restartKey->useKeyUpColor();
-        m_restartKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->setTexture(Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_restart.png"));
+        m_restartKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->setTexture(Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_restart.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false));
         m_restartKey->setCamera(camera2D);
         m_restartKey->getModel()->getMeshList()[0]->setIsWriteDepthBuffer(false);
         m_restartKey->setProgram(Cc3dProgramCache::sharedProgramCache()->getProgramByName("shaderNoLight"));
@@ -81,7 +81,7 @@ bool CgameOverPage::init(){
         m_rebirthKey=new Ckey();
         m_rebirthKey->autorelease();
         //
-        Cc3dTexture* ptex_rebirthKey=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_rebirth.png");
+        Cc3dTexture* ptex_rebirthKey=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_rebirth.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         float c[2]={0,0};
         m_rebirthKey->genAndInit(c[0]-r_key,c[0]+r_key,c[1]-r_key,c[1]+r_key, 0,1,0,1);
         m_rebirthKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->getIndexVBO()->genBuffers();

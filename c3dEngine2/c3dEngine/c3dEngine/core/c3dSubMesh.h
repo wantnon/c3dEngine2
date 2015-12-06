@@ -158,7 +158,7 @@ public:
 	}
     void init_dft(){
 		//default texture
-		Cc3dTexture*texture=Cc3dTextureCache::sharedTextureCache()->addImage("c3dEngineResource/tex/white.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE);
+		Cc3dTexture*texture=Cc3dTextureCache::sharedTextureCache()->addImage("c3dEngineResource/tex/white.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_NEAREST,GL_NEAREST,false);
 		setTexture(texture);
 		//default material
         Cc3dMaterial*material=new Cc3dMaterial();

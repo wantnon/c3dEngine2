@@ -58,12 +58,12 @@ bool Cc3dTexture::initColorTexture(int width,int height,int wrapS,int wrapT,GLin
     return true;
 }
 
-bool Cc3dTexture::init(const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter)
+bool Cc3dTexture::init(const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,bool genMipmap)
 {
     GLuint texture;
 	
     float width,height;
-    texture=createGLTexture_plat(filePath,wrapS,wrapT,minFilter,magFilter,width,height);
+    texture=createGLTexture_plat(filePath,wrapS,wrapT,minFilter,magFilter,genMipmap,width,height);
 	//cout<<"texture ID:"<<texture<<endl;
     //
     m_texture=texture;

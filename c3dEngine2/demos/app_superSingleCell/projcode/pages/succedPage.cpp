@@ -97,7 +97,7 @@ bool CsuccedPage::init(int nStar,int nEnemyKilled,int nCoinEaten){
         m_nextLevelKey=new Ckey();
         m_nextLevelKey->autorelease();
         //
-        Cc3dTexture* ptexture=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_nextLevel.png");
+        Cc3dTexture* ptexture=Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_nextLevel.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false);
         float c[2]={0,0};
         m_nextLevelKey->genAndInit(c[0]-r_key,c[0]+r_key,c[1]-r_key,c[1]+r_key, 0,1,0,1);
         m_nextLevelKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->getIndexVBO()->genBuffers();
@@ -133,7 +133,7 @@ bool CsuccedPage::init(int nStar,int nEnemyKilled,int nCoinEaten){
         m_homeKey->setKeyDownColor(0.7, 0.7, 0.7, 1);
         m_homeKey->setKeyUpColor(1, 1, 1, 1);
         m_homeKey->useKeyUpColor();
-        m_homeKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->setTexture(Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_home.png"));
+        m_homeKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->setTexture(Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_home.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false));
         m_homeKey->setCamera(camera2D);
         m_homeKey->getModel()->getMeshList()[0]->setIsWriteDepthBuffer(false);
         m_homeKey->setProgram(Cc3dProgramCache::sharedProgramCache()->getProgramByName("shaderNoLight"));
@@ -158,7 +158,7 @@ bool CsuccedPage::init(int nStar,int nEnemyKilled,int nCoinEaten){
         m_restartKey->setKeyDownColor(0.7, 0.7, 0.7, 1);
         m_restartKey->setKeyUpColor(1, 1, 1, 1);
         m_restartKey->useKeyUpColor();
-        m_restartKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->setTexture(Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_restart.png"));
+        m_restartKey->getModel()->getMeshList()[0]->getSubMeshByIndex(0)->setTexture(Cc3dTextureCache::sharedTextureCache()->addImage("singleCellGameResource/data/global/tex/keys/key_restart.png",GL_CLAMP_TO_EDGE,GL_CLAMP_TO_EDGE,GL_LINEAR,GL_LINEAR,false));
         m_restartKey->setCamera(camera2D);
         m_restartKey->getModel()->getMeshList()[0]->setIsWriteDepthBuffer(false);
         m_restartKey->setProgram(Cc3dProgramCache::sharedProgramCache()->getProgramByName("shaderNoLight"));
