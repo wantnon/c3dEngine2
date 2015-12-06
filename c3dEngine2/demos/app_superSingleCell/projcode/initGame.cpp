@@ -48,6 +48,8 @@ bool initGame(){
      
      }
      */
+    
+   
     //----camera2D
 	if(1)
     {
@@ -94,6 +96,7 @@ bool initGame(){
         CuserConfig::sharedUserConfig()->copyConfigFileToDocuments("singleCellGameResource/data/userConfig/userConfig_superSingleCell.txt");
     }
     CuserConfig::sharedUserConfig()->loadConfigFileFromDocuments("userConfig_superSingleCell.txt");
+    
     
     return true;
 
