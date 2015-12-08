@@ -103,7 +103,7 @@ public:
         m_uniformList.push_back(unifo);
     }
     
-    void setSampler(const string&samplerName,int hangPoint);
+
     void setUniform(const string&unifoName,int x);
     void setUniform(const string&unifoName,float x);
     void setUniform(const string&unifoName,const Cc3dVector2&v2);
