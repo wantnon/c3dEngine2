@@ -15,8 +15,8 @@ uniform lowp vec4 color;
 void main(void) {
     highp float zLookup=texture2D(Texture_shadowMap,lightViewportTexCoordDivW.st).z;
     highp float zLookup2=texture2D(Texture_shadowMap2,lightViewportTexCoordDivW2.st).z;
-    highp float dz=lightViewportTexCoordDivW.z-zLookup;
-    highp float dz2=lightViewportTexCoordDivW2.z-zLookup2;
+    highp float dz=lightViewportTexCoordDivW.z-(zLookup);
+    highp float dz2=lightViewportTexCoordDivW2.z-(zLookup2);
     lowp float shadowFactor;
     if(dz2>0.0){
         shadowFactor=0.5;

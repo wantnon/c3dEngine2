@@ -13,7 +13,7 @@ void main(void) {
     highp float zLookup=texture2D(Texture_shadowMap,lightViewportTexCoordDivW.st).z;
     
     highp float zTolight=lightViewportTexCoordDivW.z;
-    shadowFactor=((zTolight>zLookup)?0.65:1.0);
+    shadowFactor=((zTolight>zLookup+0.001)?0.65:1.0);
     
     lowp vec4 shadowFactorRGBA=vec4(shadowFactor,shadowFactor,shadowFactor,1.0);
     

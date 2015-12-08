@@ -2246,6 +2246,10 @@ void  CplayingPage::visitDraw(){
 
   
     Cc3dVector4 cellPos=m_cell->getTransform()->getPos();
+  /*  glEnable( GL_POLYGON_OFFSET_FILL );
+    float g_OffsetFactor=10;//0.1;//The initial value is zero.
+    float g_OffsetUnit=0;//The initial value is zero.
+    glPolygonOffset( g_OffsetFactor,g_OffsetUnit);*/
     //------------------------渲染shadow map--------------------
     {
         //---渲染静态shadow map
@@ -2332,6 +2336,13 @@ void  CplayingPage::visitDraw(){
         setPassUnifoCallbacks(nodeCallbackMap);
         setCameras(nodeCameraMap);
     }
+ /*   //恢复
+    {
+        float g_OffsetFactor=0;//The initial value is zero.
+        float g_OffsetUnit=0;//The initial value is zero.
+        glPolygonOffset( g_OffsetFactor,g_OffsetUnit);
+        glDisable( GL_POLYGON_OFFSET_FILL );
+    }*/
 
     
     //-----------------------切回到相机视角--abc
