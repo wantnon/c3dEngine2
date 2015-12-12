@@ -58,7 +58,7 @@ unsigned int bitsPerPixelForFormat(CCTexture2DPixelFormat format)
 	}
 	return ret;
 }
-GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,float&textureWidth,float&textureHeight)
+GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,bool genMipmap,float&textureWidth,float&textureHeight)
 {
 	//cout<<"filePath:"<<filePath<<endl;
 	Cc3dImage* pImage = NULL;
@@ -246,7 +246,7 @@ GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minF
 	}else{
 		C3DASSERT(false);
 	}
-	glGenerateMipmap(GL_TEXTURE_2D);
+	if(genMipmap)glGenerateMipmap(GL_TEXTURE_2D);
 	
 	C3DCHECK_GL_ERROR_DEBUG();
 	

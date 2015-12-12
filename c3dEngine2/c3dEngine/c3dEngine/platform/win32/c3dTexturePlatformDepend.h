@@ -14,7 +14,7 @@ using namespace std;
 #include "core/c3dGLdebug.h"
 #include "c3dImage.h"
 #include "core/c3dDefine.h"
-GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,
+GLuint createGLTexture_plat(const string&filePath,int wrapS,int wrapT,GLint minFilter,GLint magFilter,bool genMipmap,
                            float&textureWidth,float&textureHeight);
 
 unsigned char* getImageData_plat(const string&filePath,CCTexture2DPixelFormat&_pixelFormat,float&_imageWidth,float&_imageHeight);
